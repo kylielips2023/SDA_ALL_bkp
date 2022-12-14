@@ -174,3 +174,14 @@ Exiting due to channel error.
 1668308405045	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1668308407018	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 1668308407660	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+1671002096251	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-57.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileve6dDr"
+1671002109202	Marionette	INFO	Enabled via --marionette
+1671002115893	Marionette	INFO	Listening on port 13395
+1671002115937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1671002116072	Marionette	DEBUG	Register listener.js for window 2147483649
+1671002121246	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1671002122318	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1671002122319	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1671002125698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+1671002126854	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+[Child 7149, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

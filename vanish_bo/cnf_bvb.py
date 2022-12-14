@@ -11,14 +11,14 @@ l05_00='l05_00'
 l05_01='l05_01'
 #*----------------------------------*
 
-def append_to_l0g(text_add):
+def append_to_l0g_1(text_add):
 	with open(l05_01,'a') as fw:
 		fw.write(text_add+"\n")
 
 #*----------------------------------*
 
 os.system("clear && sleep 1") 
-os.system("rm l05_00 ipifo.json ") 
+os.system("rm l05_01 l05_00 ipifo.json ") 
 print("#######################***  CONFIGURATION ; ) ****############################\n")
 
 
@@ -35,10 +35,10 @@ log_aarry.append(visible_v)
 # append_to_l0g(vpn_type)
 # append_to_l0g(hostname_os)
 # append_to_l0g(text_add)
-for i in log_aarry:
-	print(i)
-	append_to_l0g(i)
-print(log_aarry)
+# for i in log_aarry:
+# 	print(i)
+# 	append_to_l0g(i)
+# print(log_aarry)
 
 
 if "LOOKE3" in hostname_os:
@@ -49,13 +49,14 @@ if "LOOKE3" in hostname_os:
 
 
 total_l0g=[]
-vversion="SITE_5.0_io/IMG=_xm0uray-site_5|-API-_VANISH_FIX_5"
+vversion="SITE_5.0_io/IMG=_xm0uray-site_5|-API-_VANISH_FIX_10"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 
 
 def ap_2_l0g(gms):
 	total_l0g.append(gms)
 urls=["https://mohmal.eu.org/"]
+log_aarry.append(vversion)
 
 # urls=["https://30m30m.nl.eu.org/"]
  # urls=["https://mohmal.eu.org/"]
@@ -75,6 +76,7 @@ def set_url():
 	return random_url
 
 url_1=set_url()
+log_aarry.append(url_1)
 
 url_site_2="https://www.iblogger.nl.eu.org/index.html"
 url_2=url_1.replace("https://","")
@@ -120,16 +122,18 @@ def send_msg_dock(text):
 
 def p0st_phase():
 	host_id="test"
-	send_msg_dock("text")
+	send_msg_dock("text p0st_phase")
 	# send_msg_dock_2("text")
 
 
-p0st_phase()
+# p0st_phase()
 
 u_a_count=str(u_a.u_a_count)
 # print(str(len(user_agent_list)))
 ##############################################################################################
 print("USER AGENT COUNTING : [ "+u_a_count+" ]")
+
+log_aarry.append(u_a_count)
 
 def hostname_os_val():
 	hostname_os=socket.getfqdn()
@@ -308,6 +312,8 @@ urls_GH=['MsO5TcT','nrfXdb6','fl5a8H','JvPIhd6','wt0nn5','lwF59F','32NMGr','dfa2
 urls_BVB=['Uu2MbdT','Uu2MbdT','Uu2MbdT']
 
 user_agent = u_a.u_a_count
+log_aarry.append(user_agent)
+
 
 
 
@@ -315,6 +321,9 @@ user_agent = u_a.u_a_count
 
 # new_driver_path = '/usr/bin/geckodriver13'
 new_driver_path = '/usr/bin/geckodriver22'
+log_aarry.append(new_driver_path)
+
+
 
 
 
@@ -334,6 +343,28 @@ def random_fir():
 
 
 # send_msg("text")
+
 print("\n###############################################################################")
+print(log_aarry)
 # send_msg_dock("text")
-alias_send_msg("text")
+final_tel=" ------ STARTING ------ \n"
+append_to_l0g_1("HOST NAME :  [ "+log_aarry[0]+" ]")
+append_to_l0g_1("VPN    TYPE   :  [ "+log_aarry[1]+" ]")
+append_to_l0g_1("WEB TO VISIT :  [ "+log_aarry[4]+" ]")
+append_to_l0g_1("GECKO V :  [ "+log_aarry[5]+" ]")
+append_to_l0g_1("DOCKER IMG :  [ "+log_aarry[3]+" ]")
+
+# visible_v=1
+# append_to_l0g_1
+with open(l05_01) as f:
+    lines_l05_01 = f.readlines()
+    for lii in lines_l05_01:
+    	final_tel= final_tel+ lii
+
+
+send_msg(final_tel)
+
+# for i in log_aarry:
+# 	print(i)
+# 	append_to_l0g(i)
+# print(log_aarry)

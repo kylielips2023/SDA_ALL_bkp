@@ -972,6 +972,7 @@ def alias_send_msg(text):
 	results = requests.get(url_req)
 	# print(results.json())
 
+# alias_send_msg("text")
 
 ##############################################################################################
 def alias_send_msg_2():
