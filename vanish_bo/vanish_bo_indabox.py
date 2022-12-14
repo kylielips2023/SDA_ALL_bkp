@@ -220,7 +220,7 @@ def ads_class(driver):
 		pass
 	driver.switch_to.parent_frame()
 	append_to_l0g(do0n)
-	driver.get("https://bit-plazza.blogspot.com/")
+	driver.get("https://bytes-x-space.blogspot.com/2022/01/parsing-json-with-unix-tools.html")
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
 		# SUCCESS_MSG_BUTTON.click()
 		# time.sleep(7)

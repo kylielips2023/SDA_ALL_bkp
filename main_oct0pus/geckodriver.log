@@ -185,3 +185,8 @@ Exiting due to channel error.
 1671002125698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 1671002126854	Marionette	DEBUG	Received DOM event "pageshow" for "https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 [Child 7149, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1671015527588	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUCBKP6"
+1671015558851	Marionette	INFO	Enabled via --marionette
+1671015572172	Marionette	INFO	Listening on port 10907
+1671015572261	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18066, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
