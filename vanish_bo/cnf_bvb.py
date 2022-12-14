@@ -5,14 +5,41 @@ import urllib.parse
 import emoji , os
 import  u_a
 
+#*-----------*LOG FILES*------------*
+log_aarry=[]
+l05_00='l05_00'
+l05_01='l05_01'
+#*----------------------------------*
+
+def append_to_l0g(text_add):
+	with open(l05_01,'a') as fw:
+		fw.write(text_add+"\n")
+
+#*----------------------------------*
+
 os.system("clear && sleep 1") 
 os.system("rm l05_00 ipifo.json ") 
 print("#######################***  CONFIGURATION ; ) ****############################\n")
-l05_00='l05_00'
+
+
+
+
+
 
 vpn_type="V"
 hostname_os=socket.getfqdn()
 visible_v=0
+log_aarry.append(hostname_os)
+log_aarry.append(vpn_type)
+log_aarry.append(visible_v)
+# append_to_l0g(vpn_type)
+# append_to_l0g(hostname_os)
+# append_to_l0g(text_add)
+for i in log_aarry:
+	print(i)
+	append_to_l0g(i)
+print(log_aarry)
+
 
 if "LOOKE3" in hostname_os:
 	# print(hostname_os)
@@ -80,9 +107,11 @@ def telegrame_api_send_chanel(text):
 
 def send_msg_dock(text):
 	msg_telegram="[ "+hostname_os +" ]"+text
-	token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	# token = "5261450305:AAEROP9j6569RV4rKsE_tStXCdnLSX7Gz1Y"
+	token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
+	chat_id = "-609247805"
 	# chat_id = "-643828126" L0G_NICH
-	chat_id = "-615987943"
+	# chat_id = "-615987943"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
 	print(results.json())
@@ -92,8 +121,10 @@ def send_msg_dock(text):
 def p0st_phase():
 	host_id="test"
 	send_msg_dock("text")
+	# send_msg_dock_2("text")
 
 
+p0st_phase()
 
 u_a_count=str(u_a.u_a_count)
 # print(str(len(user_agent_list)))

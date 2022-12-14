@@ -12,6 +12,13 @@ if "LOOKE3" in hostname_os:
 	visible_v=1
 
 
+l05_00='l05_00'
+def append_to_l0g(text_add):
+	with open(l05_00,'a') as fw:
+		fw.write(text_add+"\n")
+
+
+
 vpn_type="N"
 total_l0g=[]
 vversion="SITE_5 V 6.0 io/IMG = xm0uray-site_5 | chrome api ++v7"
@@ -1011,11 +1018,7 @@ alias_send_msg(mp)
 
 
 
-l05_00='l05_00'
-def append_to_l0g(text_add):
-	with open(l05_00,'a') as fw:
-		fw.write(text_add+"\n")
-	# 	# for i in all_vpn_config_file:
+
 
 ##############################################################
 
