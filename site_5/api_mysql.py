@@ -23,7 +23,6 @@ def count_left_api():
 
 	return count_left_count
 
-# count_left_api()
 
 #//////////  get_random_api //////////////////////////////////////////////////////
 
@@ -76,7 +75,27 @@ def get_config_with_api(i_d):
 #////////////////////////////////////////////////////////////////
 
 
+def check_tolerance():
 
+	
+	# count_used=str(counting_used_config_config())
+	# print(" [  VPN USED  ]",type(count_used))
+	count_used=count_left_api()
+	int_count=int(count_used)
+	# print(" [  VPN USED  ]",type(int_count))
+	
+	if int_count >= 3078 :
+		print(int_count)
+		print("NO Reset ")
+		
+		# restored_fresh_sql_table()
+	else :
+		print(int_count)
+		print(" Reset ")
+		reset_nord_api()
+
+
+check_tolerance()
 
 # reset_nord_api()
 
@@ -86,5 +105,8 @@ def get_config_with_api(i_d):
 # update_conf_nord_api(idd)
 
 print("Loading module : para OK ! [ "+count_left_api() + " ]")
+# vvv=count_left_api()
+# print("ff "+vvv)
+
 # data_id,data_cnf_names,data_used=get_random_api()
 # print(data_id,data_cnf_names,data_used)
