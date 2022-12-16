@@ -190,3 +190,27 @@ Exiting due to channel error.
 1671015572172	Marionette	INFO	Listening on port 10907
 1671015572261	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 18066, Chrome_ChildThread] WARNING: pipe error (20): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1671198385763	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3lzKvU"
+1671198398211	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398212	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398212	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398212	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398212	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398213	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398214	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398214	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398214	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198398215	addons.xpi	WARN	Not converting unknown addon type undefined
+1671198400537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1671198400538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1671198400538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1671198400538	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1671198402439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1671198402439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1671198402440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1671198402440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://2bec8e98-ea3b-4d8d-bb57-0a455f74d899/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671198420265	Marionette	INFO	Listening on port 35587
+1671198420383	Marionette	WARN	TLS certificate errors will be ignored for this session
