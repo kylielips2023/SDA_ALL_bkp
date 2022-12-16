@@ -3,6 +3,7 @@ import json
 import socket
 import socket
 import api_mysql
+import tarfile
 hostname_os=socket.getfqdn()
 goog="/root/g00g"
 pwd = os.path.dirname(os.path.realpath( __file__ ))
@@ -70,12 +71,16 @@ def extact_gc_profile():
 	print("extact")
 	comom="cp po/"+g00g_acc+".tar.gz ./"
 	os.system(comom)
+	name_archive_account=g00g_acc+'.tar.gz'
+	file = tarfile.open(name_archive_account)
 	comom_2="tar xvf "+g00g_acc+".tar.gz"
-	os.system(comom_2)
+	# os.system(comom_2)
+	pth_extr='./'
+	file.extractall(pth_extr)
 	mssgg_tel=" [ "+hostname_os +" ] \n [ EXTRACT ] [ "+g00g_acc +" ]"
 	send_msg_dock(mssgg_tel)
 
-
+extact_gc_profile()
 
 
 print(pofile_path)
