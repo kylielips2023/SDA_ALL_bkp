@@ -239,3 +239,6 @@ JavaScript error: undefined, line 14: Error: An unexpected error occurred
 JavaScript error: moz-extension://77190319-89b0-4c9b-8910-6fb1e9b67478/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
 1671206268428	Marionette	INFO	Listening on port 23047
 1671206268565	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
