@@ -69,6 +69,9 @@ def send_msg_dock(text):
 
 def extact_gc_profile():
 	print("extact")
+	remove_old_folder="rm -r "+g00g_acc+"*"
+	os.system(remove_old_folder)
+
 	comom="cp po/"+g00g_acc+".tar.gz ./"
 	os.system(comom)
 	name_archive_account=g00g_acc+'.tar.gz'
