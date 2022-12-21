@@ -63,7 +63,6 @@ def init_fire():
 	print("INIT TASKS ..... ", end='')
 	try:
 		os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		#
 		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i geckodriver_15 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
@@ -71,7 +70,6 @@ def init_fire():
 		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("rm -rf /tmp/*")
 		os.system("rm /var/log/openvpn/openvpn.log > /dev/null 2>&1")
-		#
 		time.sleep(5)
 		print(" OK !!!")
 	except:
@@ -124,8 +122,8 @@ def stage_1():
 		#print (url_1)
 		init_fire()
 		os.system("rm -rf /tmp/*")
-		# os.system("rm *.tar.gz") 
-		os.system("clear && sleep 1") 
+		# os.system("rm *.tar.gz")
+		os.system("clear && sleep 1")
 		print ( "-------------------------------------------------------")
 		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
 		print("System     : "+sys_use_agent)
@@ -214,8 +212,6 @@ def check_profile_validity(driver):
 		#deconected_prof(driver)
 
 	substring_2="shell.cloud"
-	
-
 	get_url = driver.current_url
 	fullstring_2=str(get_url)
 	if fullstring_2.find(substring_2) != -1:
@@ -245,12 +241,13 @@ def check_profile_validity(driver):
 
 def ads_class(driver):
 	t=""
-
+	url_y="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 	try:
 		print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 		# url_y="https://shell.cloud.google.com/"
-		url_y="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+		
 		driver.get(url_y)
+		print('no Dissmissed')
 		time.sleep(10)
 		# input('')
 		check_profile_validity(driver)
@@ -267,7 +264,6 @@ def ads_class(driver):
 			# sys.exit("Height less than 165")
 			# sql_gc_get.change_gc_acc()
 			raise SystemExit
-			# 
 		except:
 			print("ok this account ACTIVE")
 			cnf_bvb.send_msg_dock("ok this account ACTIVE")
@@ -290,10 +286,10 @@ def ads_class(driver):
 			time.sleep(25)
 			check_reconect(driver)
 		except Exception as e:
-			print(e+" errrrrrrrro1") 
+			print(e+" errrrrrrrro1")
 
 	except Exception as e:
-		print("ads error"+e)
+		print("ads error +++++ "+str(e))
 	# driver.delete_all_cookies()
 
 ######################USER AGENT ###################################################
@@ -304,8 +300,8 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
 		# cnf_bvb.extact_gc_profile()
-		# visible_v=cnf_bvb.visible_v
-		# display = Display(visible=visible_v, size=(width,height)).start()
+		visible_v=cnf_bvb.visible_v
+		display = Display(visible=0, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
