@@ -1,0 +1,524 @@
+1671501728514	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWwkKIm"
+1671501729956	addons.xpi-utils	WARN	Could not find source bundle for add-on default-theme@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: parseDB :: line 483"  data: no] Stack trace: parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:483 < syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:414 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3251 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///root/EXTRA/firefox-58.0.1/firefox/omni.ja!/components/addonManager.js:65
+1671501729960	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: Error: Expected passed argument to contain a path (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:191:11) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:191:11 < parseDB@XPIProviderUtils.js:490:24 < syncLoadDB@XPIProviderUtils.js:414:9 < checkForChanges@XPIProvider.jsm:3251:9 < startup@XPIProvider.jsm:2172:25 < callProvider@AddonManager.jsm:263:12 < _startProvider@AddonManager.jsm:730:5 < startup@AddonManager.jsm:897:9 < startup@AddonManager.jsm:3089:5 < observe@addonManager.js:65:9
+1671501730197	Marionette	INFO	Enabled via --marionette
+1671501732666	Marionette	INFO	Listening on port 21307
+1671501732927	Marionette	WARN	TLS certificate errors will be ignored for this session
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofileWwkKIm/containers.json
+ExceptionHandler::GenerateDump cloned child 15700
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1671501785968	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQrpJPX"
+1671501786467	addons.xpi-utils	WARN	Could not find source bundle for add-on default-theme@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: parseDB :: line 483"  data: no] Stack trace: parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:483 < syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:414 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3251 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///root/EXTRA/firefox-58.0.1/firefox/omni.ja!/components/addonManager.js:65
+1671501786470	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: Error: Expected passed argument to contain a path (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:191:11) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:191:11 < parseDB@XPIProviderUtils.js:490:24 < syncLoadDB@XPIProviderUtils.js:414:9 < checkForChanges@XPIProvider.jsm:3251:9 < startup@XPIProvider.jsm:2172:25 < callProvider@AddonManager.jsm:263:12 < _startProvider@AddonManager.jsm:730:5 < startup@AddonManager.jsm:897:9 < startup@AddonManager.jsm:3089:5 < observe@addonManager.js:65:9
+1671501786707	Marionette	INFO	Enabled via --marionette
+1671501788570	Marionette	INFO	Listening on port 12321
+1671501788586	Marionette	WARN	TLS certificate errors will be ignored for this session
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofileQrpJPX/containers.json
+ExceptionHandler::GenerateDump cloned child 15933
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1671501860319	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenDol7s"
+1671501860860	addons.xpi-utils	WARN	Could not find source bundle for add-on default-theme@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: parseDB :: line 483"  data: no] Stack trace: parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:483 < syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:414 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3251 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///root/EXTRA/firefox-58.0.1/firefox/omni.ja!/components/addonManager.js:65
+1671501860863	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: Error: Expected passed argument to contain a path (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:191:11) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:191:11 < parseDB@XPIProviderUtils.js:490:24 < syncLoadDB@XPIProviderUtils.js:414:9 < checkForChanges@XPIProvider.jsm:3251:9 < startup@XPIProvider.jsm:2172:25 < callProvider@AddonManager.jsm:263:12 < _startProvider@AddonManager.jsm:730:5 < startup@AddonManager.jsm:897:9 < startup@AddonManager.jsm:3089:5 < observe@addonManager.js:65:9
+1671501861102	Marionette	INFO	Enabled via --marionette
+1671501862586	Marionette	INFO	Listening on port 22137
+1671501862824	Marionette	WARN	TLS certificate errors will be ignored for this session
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofilenDol7s/containers.json
+ExceptionHandler::GenerateDump cloned child 16194ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1671502047892	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex3Six4"
+1671502048369	addons.xpi-utils	WARN	Could not find source bundle for add-on default-theme@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: parseDB :: line 483"  data: no] Stack trace: parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:483 < syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:414 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3251 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///root/EXTRA/firefox-58.0.1/firefox/omni.ja!/components/addonManager.js:65
+1671502048373	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: Error: Expected passed argument to contain a path (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:191:11) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:191:11 < parseDB@XPIProviderUtils.js:490:24 < syncLoadDB@XPIProviderUtils.js:414:9 < checkForChanges@XPIProvider.jsm:3251:9 < startup@XPIProvider.jsm:2172:25 < callProvider@AddonManager.jsm:263:12 < _startProvider@AddonManager.jsm:730:5 < startup@AddonManager.jsm:897:9 < startup@AddonManager.jsm:3089:5 < observe@addonManager.js:65:9
+1671502048605	Marionette	INFO	Enabled via --marionette
+1671502050412	Marionette	INFO	Listening on port 13277
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofilex3Six4/containers.json
+1671502050509	Marionette	WARN	TLS certificate errors will be ignored for this session
+ExceptionHandler::GenerateDump cloned child 16599
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1671502100243	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebAhKfo"
+1671502100784	addons.xpi-utils	WARN	Could not find source bundle for add-on default-theme@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: parseDB :: line 483"  data: no] Stack trace: parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:483 < syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:414 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3251 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///root/EXTRA/firefox-58.0.1/firefox/omni.ja!/components/addonManager.js:65
+1671502100787	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: Error: Expected passed argument to contain a path (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:191:11) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:191:11 < parseDB@XPIProviderUtils.js:490:24 < syncLoadDB@XPIProviderUtils.js:414:9 < checkForChanges@XPIProvider.jsm:3251:9 < startup@XPIProvider.jsm:2172:25 < callProvider@AddonManager.jsm:263:12 < _startProvider@AddonManager.jsm:730:5 < startup@AddonManager.jsm:897:9 < startup@AddonManager.jsm:3089:5 < observe@addonManager.js:65:9
+1671502101067	Marionette	INFO	Enabled via --marionette
+1671502102541	Marionette	INFO	Listening on port 25607
+1671502102585	Marionette	WARN	TLS certificate errors will be ignored for this session
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofilebAhKfo/containers.json
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    handleCompletion@resource://gre/modules/Sqlite.jsm:810:25
+
+ExceptionHandler::GenerateDump cloned child 16833ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+1671502192082	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8IQp6Z"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671502205345	Marionette	INFO	Listening on port 11969
+1671502205573	Marionette	WARN	TLS certificate errors will be ignored for this session
+1671502221957	Marionette	INFO	Stopped listening on port 11969
+1671503011677	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemHEHo5"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671503014276	Marionette	INFO	Listening on port 31139
+1671503014306	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671503037170	Marionette	INFO	Stopped listening on port 31139
+1671503150823	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBKO2vB"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671503153231	Marionette	INFO	Listening on port 27187
+1671503153264	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671503475849	Marionette	INFO	Stopped listening on port 27187
+1671503524647	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet0qFTC"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671503527272	Marionette	INFO	Listening on port 36973
+1671503527782	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671503544046	Marionette	INFO	Stopped listening on port 36973
+1671503571543	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePhREoj"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671503573721	Marionette	INFO	Listening on port 19489
+1671503573759	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671503607043	Marionette	INFO	Stopped listening on port 19489
+1671503626241	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletuJj6Q"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671503628531	Marionette	INFO	Listening on port 17153
+1671503628560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671503647271	Marionette	INFO	Stopped listening on port 17153
+1671503956771	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile71MaV0"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671503960108	Marionette	INFO	Listening on port 36063
+1671503960450	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671504010746	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMSCFip"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671504013122	Marionette	INFO	Listening on port 26341
+1671504013215	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 20305, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1671504067484	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilez6X2Tx"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+1671504069811	Marionette	INFO	Listening on port 29959
+1671504069905	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://f984914d-c60a-4f09-a016-252e146c0918/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1671504130485	Marionette	INFO	Stopped listening on port 29959
+1671504264943	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-58.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejMC3kw"
+1671504276926	addons.xpi-utils	WARN	Could not find source bundle for add-on default-theme@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.initWithPath]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: parseDB :: line 483"  data: no] Stack trace: parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:483 < syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:414 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3251 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2172 < callProvider()@resource://gre/modules/AddonManager.jsm:263 < _startProvider()@resource://gre/modules/AddonManager.jsm:730 < startup()@resource://gre/modules/AddonManager.jsm:897 < startup()@resource://gre/modules/AddonManager.jsm:3089 < observe()@jar:file:///root/EXTRA/firefox-58.0.1/firefox/omni.ja!/components/addonManager.js:65
+1671504276929	addons.xpi-utils	ERROR	Failed to load XPI JSON data from profile: Error: Expected passed argument to contain a path (resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:191:11) JS Stack trace: DBAddonInternal@XPIProviderUtils.js:191:11 < parseDB@XPIProviderUtils.js:490:24 < syncLoadDB@XPIProviderUtils.js:414:9 < checkForChanges@XPIProvider.jsm:3251:9 < startup@XPIProvider.jsm:2172:25 < callProvider@AddonManager.jsm:263:12 < _startProvider@AddonManager.jsm:730:5 < startup@AddonManager.jsm:897:9 < startup@AddonManager.jsm:3089:5 < observe@addonManager.js:65:9
+1671504278339	Marionette	INFO	Enabled via --marionette
+1671504287275	Marionette	INFO	Listening on port 25481
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofilejMC3kw/containers.json
+1671504287322	Marionette	WARN	TLS certificate errors will be ignored for this session
+ExceptionHandler::GenerateDump cloned child 21313
+ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    handleCompletion@resource://gre/modules/Sqlite.jsm:810:25
+
+1671504425895	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGKPSgW"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671504435619	Marionette	INFO	Marionette enabled
+1671504435701	Marionette	INFO	Listening on port 28697
+1671504437902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671505173812	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTK2RYR"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671505180973	Marionette	INFO	Marionette enabled
+1671505181039	Marionette	INFO	Listening on port 21103
+1671505182543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671505242982	Marionette	INFO	Stopped listening on port 21103
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1671505396898	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLb9U59"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671505397769	Marionette	INFO	Marionette enabled
+1671505397774	Marionette	INFO	Listening on port 33379
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671505398424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671505451254	Marionette	INFO	Stopped listening on port 33379
+1671506158651	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileM1zQNj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671506159553	Marionette	INFO	Marionette enabled
+1671506159558	Marionette	INFO	Listening on port 16795
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671506160057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671506183469	Marionette	INFO	Stopped listening on port 16795
+1671506296824	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoxhVHF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671506297739	Marionette	INFO	Marionette enabled
+1671506297744	Marionette	INFO	Listening on port 18805
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671506298202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671506335324	Marionette	INFO	Stopped listening on port 18805
+1671506382394	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenryVHz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671506383309	Marionette	INFO	Marionette enabled
+1671506383314	Marionette	INFO	Listening on port 19711
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671506383756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671506422818	Marionette	INFO	Stopped listening on port 19711
+1671506472538	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile87AEJQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671506473434	Marionette	INFO	Marionette enabled
+1671506473439	Marionette	INFO	Listening on port 13131
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671506473860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671506492787	Marionette	INFO	Stopped listening on port 13131
+1671506798972	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePZ6D42"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671506806528	Marionette	INFO	Marionette enabled
+1671506806537	Marionette	INFO	Listening on port 27415
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671506807442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671506831936	Marionette	INFO	Stopped listening on port 27415
+1671506887060	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYr7mhZ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671506888229	Marionette	INFO	Marionette enabled
+1671506888237	Marionette	INFO	Listening on port 21329
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671506888704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671506908167	Marionette	INFO	Stopped listening on port 21329
+1671507149934	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTkPY3F"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671507151167	Marionette	INFO	Marionette enabled
+1671507151175	Marionette	INFO	Listening on port 15003
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671507151638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671507591780	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesa6XoN"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671507593438	Marionette	INFO	Marionette enabled
+1671507593443	Marionette	INFO	Listening on port 14239
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671507593915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671507614085	Marionette	INFO	Stopped listening on port 14239
+1671507682060	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemCgSQ9"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671507682952	Marionette	INFO	Marionette enabled
+1671507682957	Marionette	INFO	Listening on port 35799
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671507683449	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671507702229	Marionette	INFO	Stopped listening on port 35799
+1671507985456	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebo92sv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671507986360	Marionette	INFO	Marionette enabled
+1671507986365	Marionette	INFO	Listening on port 36861
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671507986840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+1671508017266	Marionette	INFO	Stopped listening on port 36861
+1671508551041	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelf5PdY"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671508557089	Marionette	INFO	Marionette enabled
+1671508557250	Marionette	INFO	Listening on port 30969
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671508562148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671508593327	Marionette	INFO	Stopped listening on port 30969
+1671508766626	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef6dlpj"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671508772147	Marionette	INFO	Marionette enabled
+1671508772157	Marionette	INFO	Listening on port 11729
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671508773952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+1671508909820	Marionette	INFO	Stopped listening on port 11729
+1671511448843	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRzRnej"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671511455022	Marionette	INFO	Marionette enabled
+1671511455047	Marionette	INFO	Listening on port 33221
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671511456202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+1671511574576	Marionette	INFO	Stopped listening on port 33221
+1671512161762	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoITvlv"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671512163397	Marionette	INFO	Marionette enabled
+1671512163403	Marionette	INFO	Listening on port 20349
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671512163906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/PlacesUtils.sys.mjs, line 2075: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+1671512310423	Marionette	INFO	Stopped listening on port 20349
+1671512388316	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilei6qShm"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1671512389361	Marionette	INFO	Marionette enabled
+1671512389369	Marionette	INFO	Listening on port 32617
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1671512389917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1671512510818	Marionette	INFO	Stopped listening on port 32617

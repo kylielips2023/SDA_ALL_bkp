@@ -6,7 +6,7 @@ url_1="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 # cikox0xmain
 # comp=["andromialwatid","0ct0pusx01xandrow","andersonandr0w00","bigoctbig","gorgegofin","abouichrine"]
 # comp=["bigochildxone","bigochildxtow","bigochildxthree","bigochildxfour"]
-comp=["cikox0xmain","cikochildxone","cikochildxtow","cikochildxthree","cikochildxfour"]
+comp=["vanishmainxxone","vanishxmainxtow","vanishxmainxthree","vanishxmainfour","cikox0xmain","cikochildxone","cikochildxtow","cikochildxthree","cikochildxfour"]
 
 # comp=["olamadobano","laminewalter7","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
 # comp=["garmiyashour","loftbloom","vovanvonvowe","gorgegofin","abouichrine"]
@@ -14,7 +14,7 @@ comp=["cikox0xmain","cikochildxone","cikochildxtow","cikochildxthree","cikochild
 # comp=["vovanvonvowe","azfounmondilla"]
 
 
-email=comp[2]
+email=comp[1]
 paxx="g0ping0*"
 # paxx="g0ping0**"
 # paxx="agoon007"

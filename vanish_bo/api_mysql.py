@@ -64,11 +64,19 @@ def update_conf_van_api(id_config):
 	van_count_left_api()
 # update_conf_van_api(185)
 
-#/////////////////////  get_config_with_api ///////////////////////////////////////////
+#/////////////////////   ///////////////////////////////////////////  get_config_with_api
 
+#/////////////////   /////////////////////////////////////////////// reset_van_api
 
+def reset_van_api():
 
+	response = requests.put(f'{api_url}/van/reset_all')
+	data = response.json()
+	data_message = data.get('message')
+	# print(response.content)
+	print(data_message)
 
+#//////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -162,9 +170,25 @@ def get_config_with_api(i_d):
 
 #////////////////////////////////////////////////////////////////
 
+def van_check_tolerance():
 
+	
+	# count_used=str(counting_used_config_config())
+	# print(" [  VPN USED  ]",type(count_used))
+	count_used=van_count_left_api()
+	int_count=int(count_used)
+	# print(" [  VPN USED  ]",type(int_count))
+	
+	if int_count >= 1605 :
+		print(int_count)
+		print("NO Reset Count : "+str(int_count))
+		# restored_fresh_sql_table()
+	else :
+		print(int_count)
+		print(" Reset "+str(int_count))
+		reset_van_api()
 
-
+van_check_tolerance()
 # reset_nord_api()
 
 
