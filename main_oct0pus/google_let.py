@@ -68,7 +68,7 @@ def init_fire():
 		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i geckodriver_15 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i geckodriver22 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
+		# os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("rm -rf /tmp/*")
 		os.system("rm /var/log/openvpn/openvpn.log > /dev/null 2>&1")
 		#
@@ -304,8 +304,8 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
 		# cnf_bvb.extact_gc_profile()
-		# visible_v=cnf_bvb.visible_v
-		# display = Display(visible=visible_v, size=(width,height)).start()
+		visible_v=cnf_bvb.visible_v
+		display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
