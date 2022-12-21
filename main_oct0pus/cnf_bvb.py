@@ -34,7 +34,7 @@ print(read_current_acc_goo())
 # g00g_acc="garmiyashour"
 g00g_id,g00g_acc= api_mysql.get_active_goo()
 # g00g_acc= "garmiyashour"
-# 
+#
 # erogomayke
 # g00g_acc="vanishxmainfour"
 print(g00g_acc)
@@ -55,7 +55,7 @@ def send_msg_dock(text):
 	token = para_m.telegram_tokens_van
 	# chat_id = "-643828126" L0G_NICH
 	chat_id = para_m.chat_id_alerts_van_google
-	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	results = requests.get(url_req)
 	# print(results.json())
 # send_msg_dock("text")
@@ -137,7 +137,7 @@ def send_msg(text):
 	msg_telegram="[ "+hostname_os +" ]"+text
 	token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	chat_id = "-643828126"
-	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	results = requests.get(url_req)
 
 def testt():
@@ -149,7 +149,7 @@ def send_msg_to_limit(text):
 	msg_telegram="[ "+hostname_os +" ]"+text
 	token = telegram_tokens_van
 	chat_id = chat_id_alerts_van_google
-	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
+	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	results = requests.get(url_req)
 
 
@@ -209,12 +209,12 @@ urls_BVB=['Uu2MbdT','Uu2MbdT','Uu2MbdT']
 random_url=main_domain_BVB+random.choice(urls_BVB)
 user_agent = random.choice(user_agent_list)
 
-
-##URLS 
+new_driver_path = '/usr/bin/geckodriver-30'
+##URLS
 #firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
 # new_driver_path = '/usr/bin/geckodriver_30'
 # new_driver_path = '/usr/bin/geckodriver13'
-new_driver_path = '/usr/bin/geckodriver22'
+# new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-53.0b9/firefox/firefox'
 
 ########################
@@ -231,9 +231,9 @@ new_driver_path = '/usr/bin/geckodriver22'
 # new_binary_path = '/root/EXTRA/firefox-59.0b9/firefox/firefox'
 
 def random_fir():
-	# firefox_version=['97.0.1']
+	firefox_version=['97.0.1']
 	# firefox_version=['49.0b9']
-	firefox_version=['58.0.1']
+	# firefox_version=['58.0.1']
 	# firefox_version=['60.0.1esr']
 	# firefox_version=['57.0.1','58.0.1','59.0.1','60.0.1esr']
 

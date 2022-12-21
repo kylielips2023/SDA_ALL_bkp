@@ -265,7 +265,6 @@ def ads_class(driver):
 			# sys.exit("Height less than 165")
 			# sql_gc_get.change_gc_acc()
 			raise SystemExit
-			# 
 		except:
 			print("ok this account ACTIVE")
 			cnf_bvb.send_msg_dock("ok this account ACTIVE")
@@ -303,7 +302,7 @@ def starting_tasks():
 		# mod_vpn2.fnc_vpn ()
 		# cnf_bvb.extact_gc_profile()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=visible_v, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
