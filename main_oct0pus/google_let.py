@@ -124,8 +124,8 @@ def stage_1():
 		#print (url_1)
 		init_fire()
 		os.system("rm -rf /tmp/*")
-		# os.system("rm *.tar.gz") 
-		os.system("clear && sleep 1") 
+		# os.system("rm *.tar.gz")
+		os.system("clear && sleep 1")
 		print ( "-------------------------------------------------------")
 		print(emoji.emojize("Website    : "+url_1+' :check_mark_button: :alien:'))
 		print("System     : "+sys_use_agent)
@@ -214,8 +214,6 @@ def check_profile_validity(driver):
 		#deconected_prof(driver)
 
 	substring_2="shell.cloud"
-	
-
 	get_url = driver.current_url
 	fullstring_2=str(get_url)
 	if fullstring_2.find(substring_2) != -1:
@@ -290,7 +288,7 @@ def ads_class(driver):
 			time.sleep(25)
 			check_reconect(driver)
 		except Exception as e:
-			print(e+" errrrrrrrro1") 
+			print(e+" errrrrrrrro1")
 
 	except Exception as e:
 		print("ads error"+e)

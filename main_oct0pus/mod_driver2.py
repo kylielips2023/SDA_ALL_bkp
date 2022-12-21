@@ -22,7 +22,7 @@ def init_fire():
 		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i geckodriver13 | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
-		os.system("rm -rf /tmp/*") 
+		os.system("rm -rf /tmp/*")
 		time.sleep(5)
 		print(" OK !!!")
 		#os.system("ps aux | grep -i firefox | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
@@ -50,7 +50,7 @@ def build_driver(width,height):
 		fp = webdriver.FirefoxProfile(cnf_bvb.pofile_path)
 		ops = Firefox_Options()
 		#user_agent = cnf_bvb.user_agent
-		#firefox_options = Firefox_Options()		
+		#firefox_options = Firefox_Options()
 		ops.add_argument(moz_wid)
 		ops.add_argument(moz_hig)
 		# my_proxy="127.0.01:9050"

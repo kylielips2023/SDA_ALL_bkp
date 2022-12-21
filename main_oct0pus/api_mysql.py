@@ -175,7 +175,7 @@ def reset_all_google_van_main_account(van_gc_main_account):
 	# van_count_left_api()
 # update_conf_van_api(185)
 
-#/////////////////////   /////////////////////////////////////////// 
+#/////////////////////   ///////////////////////////////////////////
 def update_google_van_main_account(van_gc_main_account):
 	# van_count_left_api()
 	# print(id_config)
@@ -187,7 +187,7 @@ def update_google_van_main_account(van_gc_main_account):
 	# van_count_left_api()
 # update_conf_van_api(185)
 
-#/////////////////////   /////////////////////////////////////////// 
+#/////////////////////   ///////////////////////////////////////////
 # reset_all_google_van_main_account("id_config")
 # update_google_van_main_account("vanishmainxxone")
 #/////////////////////  get_config_with_api ///////////////////////////////////////////

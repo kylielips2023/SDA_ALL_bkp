@@ -1,4 +1,4 @@
-import os ,random ,subprocess,time 
+import os ,random ,subprocess,time
 
 import cnf_bvb
 # import socket
@@ -19,13 +19,13 @@ if "N" in vpn_type:
 if "C" in vpn_type:
 	file_list_1='NCH_list_1'
 	vpn_folder=pwd+"/CHEAP_VPN/"
-	
+
 
 
 
 
 # file_list_1='NCH_list_1'
-# 
+#
 # telrgram_vpn_text=[]
 
 
@@ -135,8 +135,6 @@ def fnc_vpn():
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
 
 
-
-	
 
 ########################################################################################################################################
 
