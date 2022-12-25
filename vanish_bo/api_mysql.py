@@ -91,7 +91,7 @@ def reset_van_api():
 #////////  Account Active ////////////////////////////////////////////////////////
 
 def get_active_goo():
-	response = requests.get(f'{api_url}/google_account/active')
+	response = requests.get(f'{api_url}/google_account_van/active')
 	data = response.json()
 	data_id = data[0].get('acc_numbre')
 	data_name_acc = data[0].get('account_id')
