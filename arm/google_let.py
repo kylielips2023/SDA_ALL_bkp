@@ -223,10 +223,10 @@ def ads_class(driver):
 			check_reconect(driver)
 		except Exception as e:
 			cnf_bvb.send_msg_dock("ERROR "+str(e))
-			print(e+" errrrrrrrro1")
+			print(str(e)+" errrrrrrrro1")
 
 	except Exception as e:
-		print("ads error"+e)
+		print("ads error"+str(e))
 		cnf_bvb.send_msg_dock("ERROR ")
 	# driver.delete_all_cookies()
 ###########################################################################

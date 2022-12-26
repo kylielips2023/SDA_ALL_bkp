@@ -98,7 +98,7 @@ def get_active_goo():
 	print(data_id,data_name_acc)
 	return data_id , data_name_acc
 #////////////////////////////////////////////////////////////////
-
+et_active_goo()
 
 # count_left_api()
 get_active_goo()

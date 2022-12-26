@@ -1,0 +1,8 @@
+1672036695289	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVbLZpp"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://804924b8-5576-43e8-93cc-983bdac3241f/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1672036731702	Marionette	INFO	Listening on port 30537
+1672036731749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1672036737793	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
