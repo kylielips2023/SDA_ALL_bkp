@@ -1,0 +1,32 @@
+1672039674615	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-60.0.1esr/firefox/firefox" "-marionette" "--width=1366" "--height=768" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile78s2b8"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 376)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:376:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:369:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:411:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:450:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:76:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:125:7\n"
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1325: uncaught exception: 2147746065
+JavaScript error: undefined, line 14: Error: An unexpected error occurred
+JavaScript error: moz-extension://974d6606-4541-49e6-9218-367a42432841/lib/picture_in_picture_overrides.js, line 15: Error: Incorrect argument types for pictureInPictureParent.setOverrides.
+1672039717331	Marionette	INFO	Listening on port 30681
+1672039717540	Marionette	WARN	TLS certificate errors will be ignored for this session
+1672039722920	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1672089841501	geckodriver	INFO	Listening on 127.0.0.1:44227
+1672089844746	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "-no-remote" "-profile" "/tmp/rust_mozprofile6qgs8P"
+1672089852583	Marionette	INFO	Marionette enabled
+1672089852649	Marionette	INFO	Listening on port 36431
+Read port: 36431
+Read port: 36431
+1672089854363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+1672089873998	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: SecurityError: The operation is insecure.
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

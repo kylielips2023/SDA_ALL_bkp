@@ -345,11 +345,13 @@ def main():
 		starting_tasks()
 	except Exception as error:
 		cnf_bvb.send_msg_dock(str(error))
+	kiliing_scr()
 
 
 if __name__ == '__main__':
 
 	main()
+	kiliing_scr()
 
 
 # begaining_loop()
