@@ -2,7 +2,8 @@ import requests
 # url="https://api-nod.onrender.com"
 # url="https://nd-my-01.onrender.com"
 # https://apiv5.onrender.com/
-url="https://apiv5.onrender.com"
+# url="https://apiv5.onrender.com"
+url="https://apiv6.onrender.com"
 
 telegram_tokens_van="5842682178:AAHhcZ41vh4XpIXvVhZ0-RuN0KkCClVgg4g"
 chat_id_alerts_van_google = "-1001633899177"
