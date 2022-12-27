@@ -62,8 +62,7 @@ def clean_up():
 	os.system("rm geckodriver.log > /dev/null 2>&1 && rm ipifo.json > /dev/null 2>&1")
 	os.system("rm -rf  __pycache__/ ")
 	os.system("service openvpn restart")
-	os.system("rm -rf /tmp/* && rm  l05_00 ipifo.json > /dev/null 2>&1") 
-
+	os.system("rm -rf /tmp/* && rm  l05_00 ipifo.json > /dev/null 2>&1")
 	init_fire()
 
 
@@ -137,9 +136,6 @@ def ads_class(driver):
 		# input("pref1")
 		# /html/body/section/iframe
 		SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
-
-
-		
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/section/iframe')))
 		action.move_to_element(SUCCESS_MSG_BUTTON)
 		action.perform()
@@ -161,7 +157,6 @@ def ads_class(driver):
 			print(do0n)
 			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
 			time.sleep(7)
-			
 		except:
 			do0n="peform1 : "
 			imges_ifam = driver.find_elements_by_xpath("//img")
@@ -177,13 +172,10 @@ def ads_class(driver):
 		append_to_l0g(do0n)
 
 		time.sleep(15)
-		
 	except Exception as e:
 		print(e)
 	print("CLICK  AND VISITE WEB-SITE [ 2 ]...... ",end='',flush=True)
 	# driver.switch_to.parent_frame()
-
-
 	driver.get(url_1)
 	action = ActionChains(driver)
 	time.sleep(2)
@@ -192,6 +184,7 @@ def ads_class(driver):
 	action.move_to_element(preform_tow)
 	action.perform()
 	print("peform")
+	ads_text=""
 	time.sleep(9)
 	try:
 
@@ -200,14 +193,20 @@ def ads_class(driver):
 			# print(str(imges_ifam))
 			driver.switch_to.frame(0)
 			time.sleep(2)
-
 			SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div/div[2]/div/span')))
 			print("peform2 : "+SUCCESS_MSG_BUTTON.text)
 			do0n="peform2 : "+SUCCESS_MSG_BUTTON.text
 			print(do0n)
+			ads_text=SUCCESS_MSG_BUTTON.text
+			# if "Earning App" in ads_text:
+			# 	print("ccccccccccccccccccc")
+			# 	SUCCESS_MSG_BUTTON.click()
+			# if "Primebit - P2P Trading" in ads_text:
+			# 	print("ccccccccccccccccccc")
+			# 	SUCCESS_MSG_BUTTON.click()
+
 			# cnf_bvb.alias_send_msg(SUCCESS_MSG_BUTTON.text)
 			time.sleep(7)
-			
 	except:
 		do0n="peform2 : "
 		imges_ifam = driver.find_elements_by_xpath("//img")
@@ -215,10 +214,27 @@ def ads_class(driver):
 		for i in imges_ifam :
 			# print(i.get_attribute("alt"))
 			do0n=do0n+ " | "+i.get_attribute("alt")
+
+			ads_text=i.get_attribute("alt")
+			# i.click()
+
 		print(" "+do0n)
+		
+		# matches = ["Primebit", "PROJECTS?", "Claim"]
+		# preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+
+		# preform_tow.click()
 		time.sleep(7)
 		pass
 	driver.switch_to.parent_frame()
+	print("oooooooo"+ads_text)
+	# "",
+	matches = ["Hurry","BTCMiddleMan.com","Metaplayerone","Telegram","Primebit", "PROJECTS?", "Claim","Benefits","FIRST LIQUID CRYPTO TRADING BOT!"]
+	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
+	if any(x in ads_text for x in matches):
+		preform_tow.click()
+		print(" 22222222222222222xxxx")
+		do0n=do0n+" XD"
 	append_to_l0g(do0n)
 	driver.get("https://bytes-x-space.blogspot.com/2022/01/parsing-json-with-unix-tools.html")
 		# SUCCESS_MSG_BUTTON=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '//*[@id="address-box-normal"]/div[3]/button')))
@@ -227,9 +243,10 @@ def ads_class(driver):
 	time.sleep(12)
 	# driver.get("https://youtu.be/3bMYY5mF83Y")
 	# input("tr")
-	time.sleep(12)
+	# time.sleep(12)
 
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
+
 		# time.sleep(2)
 		# driver.execute_script("window.open('');")
 		# driver.switch_to.window(driver.window_handles[2])
@@ -313,10 +330,6 @@ def blogger(driver):
 	# time.sleep(3)
 	# driver.switch_to.window(driver.window_handles[1])
 	# time.sleep(3)
-
-
-
-
 # p0st_phase()
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
@@ -346,14 +359,6 @@ def starting_tasks():
 	except Exception as error:
 		print (str(error))
 	clean_up()
-
-
-
-
-
-
-
-
 
 def main():
 	starting_tasks()

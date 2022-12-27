@@ -8,5 +8,5 @@ dbus-uuidgen > /var/lib/dbus/machine-id
 while true
 do
 	echo "NEW ..............."
-	timeout 5m python3 48_ads.py
+	timeout 5m python3 vanish_bo_indabox.py
 done
