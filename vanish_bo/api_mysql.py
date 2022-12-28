@@ -179,7 +179,7 @@ def van_check_tolerance():
 	int_count=int(count_used)
 	# print(" [  VPN USED  ]",type(int_count))
 	
-	if int_count >= 1605 :
+	if int_count >= 1005 :
 		print(int_count)
 		print("NO Reset Count : "+str(int_count))
 		# restored_fresh_sql_table()

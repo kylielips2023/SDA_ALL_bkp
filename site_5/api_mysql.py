@@ -84,7 +84,7 @@ def check_tolerance():
 	int_count=int(count_used)
 	# print(" [  VPN USED  ]",type(int_count))
 	
-	if int_count >= 3078 :
+	if int_count >= 2078 :
 		print(int_count)
 		print("NO Reset ")
 		
