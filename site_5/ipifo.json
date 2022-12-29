@@ -1,11 +1,11 @@
 {
-  "ip": "82.180.145.212",
-  "city": "Oslo",
-  "region": "Oslo",
-  "country": "NO",
-  "loc": "59.9127,10.7461",
+  "ip": "195.200.221.194",
+  "city": "Paris",
+  "region": "Île-de-France",
+  "country": "FR",
+  "loc": "48.8567,2.3497",
   "org": "AS136787 TEFINCOM S.A.",
-  "postal": "0001",
-  "timezone": "Europe/Oslo",
+  "postal": "75004",
+  "timezone": "Europe/Paris",
   "readme": "https://ipinfo.io/missingauth"
 }
