@@ -137,7 +137,10 @@ def lets_play(driver) :
 def check_ads(driver,banner_text):
 	#"BC.Game FIFA world cup",
 	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
-	matches = ["BC.Game FIFA world cup","Free to play, win USD","Primebit - P2P Trading","Swap On ETHPOWETHPOW !","Hurry","BTCMiddleMan.com","Metaplayerone","Telegram","Primebit", "PROJECTS?", "Claim","More Opportunity , More Benefits","FIRST LIQUID CRYPTO TRADING BOT!"]
+	#"Win Crypto Answering Avatar: TLA Trivia on YouTube",
+	# matches = ["BC.Game FIFA world cup","Free to play, win USD","Primebit - P2P Trading","Swap On ETHPOWETHPOW !","Hurry","BTCMiddleMan.com","Metaplayerone","Telegram","Primebit", "PROJECTS?", "Claim","More Opportunity , More Benefits","FIRST LIQUID CRYPTO TRADING BOT!"]
+
+	matches = ["Win Crypto Answering Avatar: TLA Trivia on YouTube"]
 	final_text=" CLICKED BANNERS_TEXT : "+banner_text
 	print(final_text)
 	# preform_tow.click()
