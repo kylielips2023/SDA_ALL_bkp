@@ -49,7 +49,7 @@ if "LOOKE3" in hostname_os:
 
 
 total_l0g=[]
-vversion="API-_VANISH_FIX_30"
+vversion="API-_VANISH_FIX_31"
 telegram_tokens_bot=["0","5036803152:AAGs0ES1OmEdy86MNJDp7mp19BB5IQhcVHU","5099462819:AAEndTxvXaSqBQ6E_EpiCN02a81ROGPMgr0","5001651751:AAGzzbUfJXWHZz-FKJyLSUxzg-JiRMO5v-Q","5041058138:AAFRher-cMwnRI476iW24tT6Kt8lvC0bmLc","5051743922:AAEOHJTRzv2WIxZ8bR-VrVYNA6io6qB1Ltw"]
 
 
@@ -182,32 +182,37 @@ def alias_send_msg(text):
 
 
 ##############################################################################################
-def alias_send_msg_2():
-	mmgg.emojize(" "' :ghost: :alien:')
-	# mmgg=""
-	for x in total_l0g :
-		mmgg=mmgg+x+"\n"
-		pass
+def alias_send_msg_2(msg):
+	# msg.emojize(" "' :ghost: :alien:')
+	# # mmgg=""
+	# for x in total_l0g :
+	# 	mmgg=mmgg+x+"\n"
+	# 	pass
 
-	msg_telegram="[ "+hostname_os +" ] [ "+vversion+" ] [ "+mmgg+" ] [ "+parssed_url_1+" ] [ "+parssed_url_2+" ] [ 000000 OK ]"
+	mm1p=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
+	zmp=emoji.emojize(" "'  :dizzy:'+"[ "+hostname_os +" ] "':dizzy:'+" \n"''+"  [ "+vversion+" ] "'')
+	print(mm1p)
+	msg_telegram=" [ "+zmp+" ] [ "+hostname_os +" ] [ "+vversion+" ] [ "+msg+" ] [ "+parssed_url_1+" ] [ "+parssed_url_2+" ] [ 000000 OK ]"
 	# token = "2137513961:AAGENlwIUQnfvbKZX64-fZ72R_oStto8oFo"
 	#-609247805
-	token=get_tokens()
+	# token=get_tokens()
 	# token="5086890807:AAEEM2OhQaR9mB7KUZvwkE60mHvoSY4BhOQ"
-	# token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
-	chat_id = "-615987943"
-	# chat_id = "-1001616252735"
+	token="5035848854:AAG9a-7bHDYTOXiNEdjXRsnM-gbkdw9TCfE"
+	# chat_id = "-615987943"
+	# chat_id = "-1001351891755"
+	chat_id = "-1001616252735"
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	# url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 
 	results = requests.get(url_req)
-	# print(results.json())
+	print(results.json())
 
 
 ##############################################################################################
 
 mp=emoji.emojize("STARTING Ok "':alien:')
 alias_send_msg(mp)
+# alias_send_msg_2("mp")
 
 
 
@@ -363,6 +368,8 @@ with open(l05_01) as f:
 
 
 send_msg(final_tel)
+# send_msg_dock_2("text000000000000000000000")
+alias_send_msg_2("22222222222222222")
 
 # for i in log_aarry:
 # 	print(i)

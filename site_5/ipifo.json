@@ -1,11 +1,11 @@
 {
-  "ip": "192.145.116.96",
-  "city": "Ashburn",
-  "region": "Virginia",
-  "country": "US",
-  "loc": "39.0437,-77.4875",
-  "org": "AS141039 Packethub s.a.",
-  "postal": "20147",
-  "timezone": "America/New_York",
+  "ip": "82.180.145.212",
+  "city": "Oslo",
+  "region": "Oslo",
+  "country": "NO",
+  "loc": "59.9127,10.7461",
+  "org": "AS136787 TEFINCOM S.A.",
+  "postal": "0001",
+  "timezone": "Europe/Oslo",
   "readme": "https://ipinfo.io/missingauth"
 }
