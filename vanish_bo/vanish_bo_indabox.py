@@ -233,7 +233,7 @@ def ads_class(driver):
 	matches = ["BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD"]
 	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 	if any(x in ads_text for x in matches):
-		#preform_tow.click()
+		preform_tow.click()
 		print(" 22222222222222222xxxx")
 		do0n=do0n+" XD"
 	append_to_l0g(do0n)
