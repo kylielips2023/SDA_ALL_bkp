@@ -4,6 +4,9 @@ import socket
 import urllib.parse
 import emoji
 import u_a
+import extt
+
+# fuckk=[]
 hostname_os=socket.getfqdn()
 visible_v=0
 os.system("cp /root/0nord_pass /root/SDA_ALL/site_5/0nord_pass")
@@ -293,3 +296,6 @@ def random_fir():
 # alias_send_msg("meddas")
 # send_msg_dock("text")
 # alias_send_msg_2()
+extt.fuckk.extend((hostname_os,vversion,url_1))
+# extt.tel_banner(extt.fuckk)
+# input('')

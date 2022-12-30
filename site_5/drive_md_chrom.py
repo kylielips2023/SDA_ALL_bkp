@@ -3,10 +3,13 @@ from selenium_stealth import stealth
 import time
 import cnf_bvb
 import emoji
-
+import extt
 import devices_gen
 
+# extt.fuckk.extend((str(sz)))
 
+# print(extt.fuckk)
+# input('')
 
 
 
@@ -47,6 +50,9 @@ def build_driver(sizee):
         # driver.set_window_size(1024, 600)
         # driver.maximize_window()
         # driver.manage().window().maximize()
+        extt.fuckk.extend((sizee,ua,platfom,vendor,randerer))
+        # print(extt.fuckk)
+        # input('')
         print(emoji.emojize("Ok [ "+sizee+" ] [ "+vendor+randerer+platfom+"]"' :check_mark_button: :alien:'))
         return driver
         # url = "https://bot.sannysoft.com/"

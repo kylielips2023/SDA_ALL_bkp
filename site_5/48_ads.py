@@ -15,25 +15,37 @@ import random,datetime,string , os ,time ,subprocess , sys , requests ,re
 from selenium.webdriver import ActionChains
 import json
 import drive_md_chrom
+import extt
 # import pickle
-
+dd="nnnn"
+dd1="nnnn"
 telrgram_text=[]
-
+telrgram_text_log=[]
 ###########global urls_BVB
+telrgram_text_log.append("object")
 
+# print(extt.fuckk)
+# print(telrgram_text_log)
+# input('')
 url_1=cnf_bvb.url_1
 url_y="https://www.youtube.com/watch?v=9dgydVy_8xU"
 print (url_1)
+
 url_site_2=cnf_bvb.url_site_4
 second_2_visit=cnf_bvb.second_2_visit
 url_6=cnf_bvb.url_6
 
 user_agent = cnf_bvb.user_agent
+
+
+
 sys_use_agent=re.findall('\(.*?\)',user_agent)[0]
 
-random_ads=""
+# telrgram_text_log.extend((url_1,user_agent,sys_use_agent))
+extt.fuckk.extend((url_1,user_agent,sys_use_agent))
+# print(telrgram_text_log)
 
-url_click_ads="https://click.a-ads.com/1859747/"+random_ads+"/"
+
 ########################################################################################################################################
 ##############################################################
 l05_00='l05_00'
@@ -140,19 +152,25 @@ def check_ads(driver,banner_text):
 	#"Win Crypto Answering Avatar: TLA Trivia on YouTube",
 	# matches = ["BC.Game FIFA world cup","Free to play, win USD","Primebit - P2P Trading","Swap On ETHPOWETHPOW !","Hurry","BTCMiddleMan.com","Metaplayerone","Telegram","Primebit", "PROJECTS?", "Claim","More Opportunity , More Benefits","FIRST LIQUID CRYPTO TRADING BOT!"]
 
-	matches = ["BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD"]
+	matches = ["UnityMeta Token Wishes Happy New Year 2023","BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD"]
 	final_text=" CLICKED BANNERS_TEXT : "+banner_text
 	print(final_text)
+	donn_o="null"
 	# preform_tow.click()
 	if any(x in banner_text for x in matches):
-		append_to_l0g("XD "+final_text+" XD")
 		preform_tow.click()
+		append_to_l0g("XD "+final_text+" XD")
+		donn_o="XD XD"
+		
 		time.sleep(25)
+	extt.fuckk.extend((banner_text,donn_o))
 
 ###################################################################################################
 
 #################################"MAIN STARTING"##############################
 def ads_class(driver):
+	ads_ban_1=""
+	ads_ban_2=""
 	action = ActionChains(driver)
 	banner_text=""
 
@@ -179,6 +197,7 @@ def ads_class(driver):
 			do0n="peform1 : "+SUCCESS_MSG_BUTTON.text
 			print(do0n)
 			# banner_text=SUCCESS_MSG_BUTTON.text
+			ads_ban_1=SUCCESS_MSG_BUTTON.text
 			time.sleep(7)
 		except:
 			print("P 1")
@@ -189,7 +208,7 @@ def ads_class(driver):
 			for i in imges_ifam :
 				# print(i.get_attribute("alt"))
 				do0n=do0n+ " | "+i.get_attribute("alt")
-				# banner_text=i.get_attribute("alt")
+				ads_ban_1=i.get_attribute("alt")
 			print(" "+do0n)
 			time.sleep(7)
 			pass
@@ -221,6 +240,7 @@ def ads_class(driver):
 		print("peform2 : "+SUCCESS_MSG_BUTTON.text)
 		do0n="peform2 : "+SUCCESS_MSG_BUTTON.text
 		banner_text=SUCCESS_MSG_BUTTON.text
+		ads_ban_2=SUCCESS_MSG_BUTTON.text
 		print(do0n)
 		time.sleep(7)
 	except:
@@ -231,6 +251,7 @@ def ads_class(driver):
 		for i in imges_ifam :
 			do0n=do0n+ " | "+i.get_attribute("alt")
 			banner_text=i.get_attribute("alt")
+			ads_ban_2=banner_text
 		print(" "+do0n)
 		time.sleep(7)
 		pass
@@ -243,6 +264,9 @@ def ads_class(driver):
 	check_ads(driver,banner_text)
 	append_to_l0g(do0n)
 	time.sleep(12)
+	extt.fuckk.extend((ads_ban_1,ads_ban_2))
+	# print(extt.fuckk)
+	# input('')
 	append_to_l0g("VISITE WEB-SITE [ 2 ] : [ +second_2_visit+]  OK")
 	driver.delete_all_cookies()
 	print("Remove Cookies")
@@ -254,6 +278,10 @@ def starting_tasks():
 		stage_1()### CLEAR
 		cnf_bvb.p0st_phase()
 		visible_v=cnf_bvb.visible_v
+		# telrgram_text_log.extend((visible_v))
+		extt.fuckk.extend((str(visible_v)))
+		# print(extt.fuckk)
+		# input('')
 		mod_vpn2.fnc_vpn ()
 		display = Display(visible=visible_v, size=(width,height)).start()
 		# cnf_bvb.alias_send_msg_2()
@@ -261,6 +289,10 @@ def starting_tasks():
 		# driver=mod_driver2.build_driver(width ,height)
 		# sz=width+","+height
 		sz=height+","+width
+		# extt.fuckk.extend((str(sz)))
+
+		# print(extt.fuckk)
+		# input('')
 		driver=drive_md_chrom.build_driver(sz)
 		driver.maximize_window()
 		lets_play(driver)
@@ -268,7 +300,7 @@ def starting_tasks():
 		display.stop()
 	except Exception as error:
 		print (str(error))
-	clean_up()
+	
 
 
 
@@ -283,6 +315,9 @@ def main():
 	lines=read_current_l0g()
 	cnf_bvb.telegrame_api_send_chanel(str(lines))
 	# append_to_l0g("text_add")
+	clean_up()
+	print(extt.fuckk)
+	extt.tel_banner(extt.fuckk)
 
 
 if __name__ == '__main__':

@@ -13,8 +13,18 @@ hostname_os=""
 
 def send_msg(text):
 
-	msg_telegram="[ "+hostname_os +" ]"+text
+	msg_telegram="👽 [ "+hostname_os +" ]\n"+text
 	token = telegram_tokens_van
 	chat_id = chat_id_alerts_van_google
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram 
 	results = requests.get(url_req)
+
+
+log_01=['tuesdays','never']
+# wash_clothes = 
+# clean_dishes = 
+text000000000='''💫[ bigochildxtow-gc-emma-3 ] 💫 
+🎩 '''+log_01[0]+''' 🎩
+'''
+
+send_msg(text000000000)

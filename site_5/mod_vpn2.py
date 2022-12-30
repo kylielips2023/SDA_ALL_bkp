@@ -2,10 +2,11 @@ import os ,random ,subprocess,time
 import vpn_sql
 import cnf_bvb
 # import socket
+import extt
 import api_mysql
 l05_00='l05_00'
 # hostname= socket.getfqdn()
-
+api_url=api_mysql.api_url
 # global retry_count
 retry_count=[]
 # pwd = os.path.dirname(os.path.realpath( __file__ ))
@@ -19,7 +20,6 @@ rnd_yek=["33goQfhs6hfDauLzafL5PErP:3hx1mG2twanKEfQYsMPBZ6aw"]
 # "SisHM2SwPizsMgkbnk6UrFGk:32mQ7rFguPGWSJubqPh4Cgg1"
       
 # "GWaURqBcXMjHyuExDTEAtVR1:9JSemjxgWvxHUB7cXw9xrWQs"]
-
 def random_pass():
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	random_ads=random.choice(rnd_yek)
@@ -183,10 +183,14 @@ def fnc_vpn():
 	os.system("echo '' > /var/log/openvpn/openvpn.log")
 	final_vpn,random_vpn,id_config=get_random_vpn()
 	int_used=api_mysql.count_left_api()
+	# extt.fuckk.append((str(int_used)))
 	print("###################################################")
 	print("KILLING OPENVPN ....",end=' ')
 	os.system("ps aux | grep  openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 	def_tz=read_default_timezone()
+	# extt.fuckk.extend((random_vpn,id_config,int_used,def_tz))
+	# print(extt.fuckk)
+	# input('')
 
 	change_time_zon(def_tz)
 	print(str(len(retry_count)))
@@ -222,6 +226,9 @@ def fnc_vpn():
 			print(meddas)
 			cnf_bvb.ap_2_l0g(meddas)
 			cnf_bvb.alias_send_msg(meddas)
+			extt.fuckk.extend((api_url,random_vpn,id_config,int_used,def_tz,ac_ip,tz,loc,bass,def_titi))
+			# print(extt.fuckk)
+			# input('')
 			return [x ,True]
 		if logfile.read().find('AUTH_FAILED'):
 			print("\nAUTH_FAILED")
