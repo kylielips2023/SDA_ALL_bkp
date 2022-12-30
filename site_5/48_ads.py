@@ -152,7 +152,7 @@ def check_ads(driver,banner_text):
 	#"Win Crypto Answering Avatar: TLA Trivia on YouTube",
 	# matches = ["BC.Game FIFA world cup","Free to play, win USD","Primebit - P2P Trading","Swap On ETHPOWETHPOW !","Hurry","BTCMiddleMan.com","Metaplayerone","Telegram","Primebit", "PROJECTS?", "Claim","More Opportunity , More Benefits","FIRST LIQUID CRYPTO TRADING BOT!"]
 
-	matches = ["UnityMeta Token Wishes Happy New Year 2023","BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD","FIRST LIQUID CRYPTO TRADING BOT!"]
+	matches = ["UnityMeta Token Wishes Happy New Year 2023","BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Metaplayerone","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD","FIRST LIQUID CRYPTO TRADING BOT!","More Opportunity , More Benefits"]
 	final_text=" CLICKED BANNERS_TEXT : "+banner_text
 	print(final_text)
 	donn_o="null"
