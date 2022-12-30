@@ -369,7 +369,7 @@ with open(l05_01) as f:
 
 send_msg(final_tel)
 # send_msg_dock_2("text000000000000000000000")
-alias_send_msg_2("22222222222222222")
+# alias_send_msg_2("22222222222222222")
 
 # for i in log_aarry:
 # 	print(i)
