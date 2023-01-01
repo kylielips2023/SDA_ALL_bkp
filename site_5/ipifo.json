@@ -1,12 +1,12 @@
 {
-  "ip": "193.176.30.192",
-  "hostname": "192.30.176.193.baremetal.zare.com",
-  "city": "London",
-  "region": "England",
-  "country": "GB",
-  "loc": "51.5085,-0.1257",
-  "org": "AS25369 Hydra Communications Ltd",
-  "postal": "EC1A",
-  "timezone": "Europe/London",
+  "ip": "64.44.118.212",
+  "hostname": "d",
+  "city": "Buffalo",
+  "region": "New York",
+  "country": "US",
+  "loc": "42.8865,-78.8784",
+  "org": "AS131199 Nexeon Technologies, Inc.",
+  "postal": "14202",
+  "timezone": "America/New_York",
   "readme": "https://ipinfo.io/missingauth"
 }
