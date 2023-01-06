@@ -230,7 +230,8 @@ def ads_class(driver):
 	print("oooooooo"+ads_text)
 	# "Primebit - P2P Trading",
 	# matches = ["Primebit - P2P Trading","Swap On ETHPOWETHPOW !","Hurry","BTCMiddleMan.com","Metaplayerone","Telegram","Primebit", "PROJECTS?", "Claim","More Opportunity , More Benefits","FIRST LIQUID CRYPTO TRADING BOT!"]
-	matches = ["BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD"]
+	# matches = ["BTCMiddleMan.com","BC.Game FIFA world cup","Swap On ETHPOWETHPOW !","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD"]
+	matches = ["Free to play, win USD XD","Mint, lock and launch your tokens for free","GET FREE SPINS","Got crypto? Got bills? Setup bill pay and GET $50!","Dollarmoon","A new crypto investment game","ARE YOU INTERESTED IN CRYPTO PROJECTS?","Dollarmoon is the safe way to the moon","UnityMeta Token Wishes Happy New Year 2023","BTCMiddleMan.com","New vaults up to 80% APY","Swap On ETHPOWETHPOW !","Metaplayerone","Win Crypto Answering Avatar: TLA Trivia on YouTube","The Best Rates in DeFi !","Claim your P2,500 risk free first bet","Best Earning App","Primebit - P2P Trading","Token check if it is a probable honeypot or risky.","Free to play, win USD","FIRST LIQUID CRYPTO TRADING BOT!","More Opportunity , More Benefits"]
 	preform_tow=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/header/div/iframe')))
 	if any(x in ads_text for x in matches):
 		preform_tow.click()
