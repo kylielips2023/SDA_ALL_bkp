@@ -255,7 +255,11 @@ def ads_class(driver):
 			shell_limit=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
 			print("ok this account DOWN")
 			cnf_bvb.send_msg_dock("ok this account DOWN")
-			cnf_bvb.change_gc_acc()
+			try:
+				cnf_bvb.change_gc_acc()
+			except:
+				cnf_bvb.change_gc_acc()
+
 			print("ok CHANGED")
 			clean_up()
 			# quit()
