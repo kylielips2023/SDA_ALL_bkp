@@ -58,7 +58,7 @@ def send_msg_dock(text):
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	results = requests.get(url_req)
 	# print(results.json())
-# send_msg_dock("text")
+# send_msg_dock("text") l
 # send_msg_dock("text")
 ###############################################################################################################################
 def update_and_reset_go_ac(new_set_van_gc_main_account):
