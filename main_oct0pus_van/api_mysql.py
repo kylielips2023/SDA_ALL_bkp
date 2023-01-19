@@ -78,15 +78,18 @@ def reset_van_api():
 #////////  Account Active ////////////////////////////////////////////////////////
 
 def get_active_goo():
-	response = requests.get(f'{api_url}/google_account_van/active')
-	data = response.json()
-	data_id = data[0].get('acc_numbre')
-	data_name_acc = data[0].get('account_id')
-	# d2=str(data[0]).split(":")
-	# d2=d2[1].replace('}',"")
-	# d3=d2.replace(' ',"")
-	# count_left_count = d3
-	print(data_id,data_name_acc)
+	try:
+		response = requests.get(f'{api_url}/google_account_van/active')
+		data = response.json()
+		data_id = data[0].get('acc_numbre')
+		data_name_acc = data[0].get('account_id')
+		# d2=str(data[0]).split(":")
+		# d2=d2[1].replace('}',"")
+		# d3=d2.replace(' ',"")
+		# count_left_count = d3
+		print(data_id,data_name_acc)
+	except:
+		get_active_goo()
 
 
 	return data_id , data_name_acc
@@ -181,7 +184,7 @@ def update_google_van_main_account(van_gc_main_account):
 	# print(id_config)
 	# get_config_with_api_van(id_config)
 	d_data = {'id':'1'}
-	response = requests.put(f"{api_url}/google_account/activate_van/%s" %van_gc_main_account)
+	response = requests.put(f"{api_url}/van/account/act/%s" %van_gc_main_account)
 	print(response.content)
 	# get_config_with_api_van(id_config)
 	# van_count_left_api()

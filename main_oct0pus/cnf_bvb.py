@@ -64,37 +64,42 @@ def send_msg_dock(text):
 def update_and_reset_go_ac(new_set_van_gc_main_account):
 	# print("reset_all_google_van_main_account")
 	print("reset_all_google_van_main_account : ",new_set_van_gc_main_account)
-	api_mysql.reset_all_google_van_main_account(new_set_van_gc_main_account)
-	time.sleep(8)
+	# api_mysql.reset_all_google_van_main_account(new_set_van_gc_main_account)
 	print("update_google_van_main_account: ",new_set_van_gc_main_account)
 	print("set new active")
 	api_mysql.update_google_van_main_account(new_set_van_gc_main_account)
+	time.sleep(2)
 	print("EXIT")
 	# raise SystemExit
 	# sys.exit("Height less than 165")
 
 ########################################################################################################################################
 def change_gc_acc():
-	# g_a=get_actif_account()
-	g_index,g_a=api_mysql.get_active_goo()
-	print(g_a)
-	# g_a=read_current_acc_goo()
-	index_of_account=main_ar.index(g_a)
-	print(index_of_account)
-	numbr_account=len(main_ar)-1
-	print("number numbr_account ",numbr_account)
-	if index_of_account==numbr_account:
-		new_index=0
-	else:
-		new_index=index_of_account+1
-	add_the_new_acc="echo '"+main_ar[new_index]+"' > /root/g00g && cat /root/g00g"
-	os.system(add_the_new_acc)
-	new_set=main_ar[new_index]
-	print("NEW Index : ",new_set)
-	send_msg_dock(g_a+" --> "+new_set)
-	# print(new_set)
-	update_and_reset_go_ac(new_set)
-	print(new_index)
+	
+	try:
+		# g_a=get_actif_account()
+		g_index,g_a=api_mysql.get_active_goo()
+		print(g_a)
+		# g_a=read_current_acc_goo()
+		index_of_account=main_ar.index(g_a)
+		print(index_of_account)
+		numbr_account=len(main_ar)-1
+		print("number numbr_account ",numbr_account)
+		if index_of_account==numbr_account:
+			new_index=0
+		else:
+			new_index=index_of_account+1
+		add_the_new_acc="echo '"+main_ar[new_index]+"' > /root/g00g && cat /root/g00g"
+		os.system(add_the_new_acc)
+		new_set=main_ar[new_index]
+		print("NEW Index : ",new_set)
+		send_msg_dock(g_a+" --> "+new_set)
+		# print(new_set)
+		update_and_reset_go_ac(new_set)
+		print(new_index)
+	except:
+		change_gc_acc()
+
 
 # change_gc_acc()
 # input("prompt")

@@ -1,6 +1,4 @@
 import para_m
-
-
 import requests
 import json ,os
 #  ls ~/VPN/N0RD/WORKING_CONFIG | wc -l
@@ -9,7 +7,7 @@ api_url=para_m.url
 # print(api_url)
 
 
-#/////////////////////  get_config_with_api ///////////////////////////////////////////
+#/////////////////////  get_config_with_api VVVV ///////////////////////////////////////////
 
 def get_config_with_api_van(i_d):
 	response = requests.get(f"{api_url}/van/%d" %i_d )
@@ -78,15 +76,19 @@ def reset_van_api():
 #////////  Account Active ////////////////////////////////////////////////////////
 
 def get_active_goo():
-	response = requests.get(f'{api_url}/google_account/active')
-	data = response.json()
-	data_id = data[0].get('acc_numbre')
-	data_name_acc = data[0].get('account_id')
-	# d2=str(data[0]).split(":")
-	# d2=d2[1].replace('}',"")
-	# d3=d2.replace(' ',"")
-	# count_left_count = d3
-	print(data_id,data_name_acc)
+	try:
+		response = requests.get(f'{api_url}/google_account/active')
+		data = response.json()
+		data_id = data[0].get('acc_numbre')
+		data_name_acc = data[0].get('account_id')
+		# d2=str(data[0]).split(":")
+		# d2=d2[1].replace('}',"")
+		# d3=d2.replace(' ',"")
+		# count_left_count = d3
+		print(data_id,data_name_acc)
+	except:
+		get_active_goo()
+
 
 
 	return data_id , data_name_acc
@@ -176,12 +178,12 @@ def reset_all_google_van_main_account(van_gc_main_account):
 # update_conf_van_api(185)
 
 #/////////////////////   ///////////////////////////////////////////
-def update_google_van_main_account(van_gc_main_account):
+def update_google_van_main_account(nord_gc_main_account):
 	# van_count_left_api()
 	# print(id_config)
 	# get_config_with_api_van(id_config)
 	d_data = {'id':'1'}
-	response = requests.put(f"{api_url}/google_account/activate_van/%s" %van_gc_main_account)
+	response = requests.put(f"{api_url}/nor/account/act/%s" %nord_gc_main_account)
 	print(response.content)
 	# get_config_with_api_van(id_config)
 	# van_count_left_api()

@@ -1,6 +1,5 @@
 import cnf_bvb
 import sql_gc_get
-
 # import mod_vpn2
 import mod_driver2
 import emoji
@@ -20,15 +19,7 @@ import json
 # import pickle
 # xamiramogdan hghjghj
 telrgram_text=[]
-# email="azfounmondilla"111mmm
-# email="jilalydillaly"
-# email="abouichrine"
-# email="almidaopo"
-# email="don0mar0l0k0"
-# email="abedrahman0x"
-# email="boudabkafaycel"
-# email="caldinomajbri"iiiop
-# email=gc_ac__sql.get_gc_account()
+
 
 
 email=cnf_bvb.g00g_acc
@@ -256,7 +247,11 @@ def ads_class(driver):
 			shell_limit=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
 			print("ok this account DOWN")
 			cnf_bvb.send_msg_dock("ok this account DOWN")
-			cnf_bvb.change_gc_acc()
+			try:
+				cnf_bvb.change_gc_acc()
+			except:
+				cnf_bvb.change_gc_acc()
+
 			print("ok CHANGED")
 			clean_up()
 			# quit()
