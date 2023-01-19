@@ -97,7 +97,7 @@ def get_active_goo():
 # count_left_api()
 # get_active_goo()
 
-#////////  count_left_api ////////////////////////////////////////////////////////
+#////////  count_left_api /////////////////////////////////////////////////////////////
 
 def count_left_api():
 	response = requests.get(f'{api_url}/nor/count')

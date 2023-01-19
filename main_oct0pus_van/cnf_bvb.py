@@ -71,7 +71,7 @@ def update_and_reset_go_ac(new_set_van_gc_main_account):
 	time.sleep(2)
 	print("EXIT")
 	# raise SystemExit
-	# sys.exit("Height less than 165")
+	# sys.exit("Height less than 165") 
 
 ########################################################################################################################################
 def change_gc_acc():
