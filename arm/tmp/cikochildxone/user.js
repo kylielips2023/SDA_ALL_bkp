@@ -78,7 +78,7 @@ user_pref("idle.lastDailyNotification", -1);
 user_pref("intl.accept_languages", "en-GB");
 user_pref("javascript.enabled", true);
 user_pref("javascript.options.showInConsole", true);
-user_pref("marionette.port", 10329);
+user_pref("marionette.port", 28599);
 user_pref("media.gmp-manager.updateEnabled", false);
 user_pref("media.sanity-test.disabled", true);
 user_pref("modifyheaders.headers.action0", "Add");
