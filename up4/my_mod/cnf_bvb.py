@@ -63,6 +63,7 @@ def init_fire():
 	print("############################################################")
 	print("INIT TASKS ..... ", end='')
 	try:
+		os.system("ps aux | grep -i chromedriver | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i openvpn | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xvfb | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")
 		os.system("ps aux | grep -i Xephyr | awk '{print $2}'|xargs kill -9 > /dev/null 2>&1")

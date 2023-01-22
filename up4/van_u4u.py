@@ -476,11 +476,15 @@ if __name__ == '__main__':
         visit_play(driver)
         time.sleep(2)
         display.stop()
+        driver.close()
+        driver.quit()
 
         # start_session()
     except Exception as a:
         print("error in main"+str(a))
     # os.system("pkill chrome")
+    driver.quit()
+    os.system("rm -rf /tmp/*")
 
 # try:
 
