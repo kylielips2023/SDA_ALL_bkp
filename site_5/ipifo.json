@@ -1,11 +1,11 @@
 {
-  "ip": "45.143.82.194",
-  "city": "White Center",
-  "region": "Washington",
+  "ip": "185.189.25.252",
+  "city": "Dallas",
+  "region": "Texas",
   "country": "US",
-  "loc": "47.5173,-122.3548",
+  "loc": "32.9322,-96.8353",
   "org": "AS136787 TEFINCOM S.A.",
-  "postal": "98106",
-  "timezone": "America/Los_Angeles",
+  "postal": "75244",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }
