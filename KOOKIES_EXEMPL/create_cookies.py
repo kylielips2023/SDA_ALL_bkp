@@ -124,7 +124,7 @@ def cleann(browser):
     # os.system('rm -rf /tmp/.*  > /dev/null 2>&1 && rm -rf /tmp/tmp* > /dev/null 2>&1')
 
 if __name__ == '__main__':
-    display = Display(visible=1).start()
+    display = Display(visible=0).start()
     # display = Display(visible=1, size=(width,height)).start()
 
     browser=session_chrom.create_session()
