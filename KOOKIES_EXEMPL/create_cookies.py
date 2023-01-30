@@ -8,13 +8,13 @@ import time ,os
 from pyvirtualdisplay import Display
 
 from selenium.webdriver.common.keys import Keys
-all_s=["cikochildxone"]
-email = all_s[0]
+all_s=["cikox0xmain","danayxmaindanay","cikochildxone","bigoctbig","vanishmainxxone"]
+email = all_s[-1]
 password = "g0ping0*"
 profil_pickle=email+".pkl"
 url_y="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 
-comp=["olamadobano","laminewalter7","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
+# comp=["olamadobano","laminewalter7","kawadurki","vovanvonvowe","gorgegofin","abouichrine"]
 
 
 
@@ -124,16 +124,16 @@ def cleann(browser):
     # os.system('rm -rf /tmp/.*  > /dev/null 2>&1 && rm -rf /tmp/tmp* > /dev/null 2>&1')
 
 if __name__ == '__main__':
-    display = Display(visible=0).start()
+    display = Display(visible=1).start()
     # display = Display(visible=1, size=(width,height)).start()
 
     browser=session_chrom.create_session()
-    # log_in(browser)
+    log_in(browser)
     # input('ok submit')
     # browser=session_chrom.create_session()
 
-    kookie.load_cookies(browser)
-    check_shell(browser)
+    # kookie.load_cookies(browser,profil_pickle)
+    # check_shell(browser)
     input('ok submit')
     cleann(browser)
     display.stop()

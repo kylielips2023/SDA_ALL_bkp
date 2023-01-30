@@ -14,10 +14,12 @@ def dump_coockies(browser,profil_pickle):
 
 
 
-def load_cookies(browser):
+def load_cookies(browser,profil_pickle):
     # browser=chrome_session()
+    path_prof="prf_kok/"+profil_pickle
+    print("Loading Profile : [ "+path_prof+" ]")
     browser.get('https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&hl=en&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
-    cookies = pickle.load(open("prf_kok/cikochildxone.pkl", "rb"))
+    cookies = pickle.load(open(path_prof, "rb"))
     cookies_list = list(json.dumps(cookies))
     # print(cookies)
     for cookie in cookies:
