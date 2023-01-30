@@ -8,7 +8,11 @@ import time ,os
 from pyvirtualdisplay import Display
 
 from selenium.webdriver.common.keys import Keys
-all_s=["cikox0xmain","danayxmaindanay","cikochildxone","bigoctbig","vanishmainxxone"]
+# "vanishmainxxone","vanishxmainxthree","vanishxmainfour"
+all_s=["cikox0xmain","danayxmaindanay","cikochildxone","bigoctbig","vanishxmainxtow" \
+,"vanishxmainxtow","vanishxmainxthree","vanishxmainfour","cikochildxfour","cikochildxthree","cikochildxtow","cikochildxone"\
+,"bigochildxfour","bigochildxthree","bigochildxtow","bigochildxone","vanishmainxxone", \
+ "danayxchildx01danay","danayxchildx02danay","danayxchildx03danay"]
 email = all_s[-1]
 password = "g0ping0*"
 profil_pickle=email+".pkl"
