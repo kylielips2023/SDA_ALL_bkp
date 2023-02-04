@@ -147,7 +147,7 @@ def check_shell(browser):
 
 
 if __name__ == '__main__':
-    display = Display(visible=1).start()
+    display = Display(visible=0).start()
     # display = Display(visible=1, size=(width,height)).start()
 
     browser=session_chrom.create_session()
