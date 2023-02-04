@@ -141,7 +141,7 @@ def check_reconect(driver):
 		open_login_button=WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
-		time.sleep(300)
+		time.sleep(15)
 		print("OK XTERMINAL FOUND !!!!!!")
 		check_reconect(driver)
 	except Exception as e:
@@ -271,7 +271,10 @@ def ads_class(driver):
 			print("we are here")
 			staage="OK XTEMINAL ACTIVATED [ "+cnf_bvb.g00g_acc+" ] ["#+os.system("echo $WEBHOOK_URL")+" ] "
 			print(staage)
-			cnf_bvb.send_msg_dock(staage)
+			try:
+				cnf_bvb.send_msg_dock(staage)
+			except Exception as e:
+				print(str(e))
 			# open_login_button.click()
 			print("clickkkkkkkkkk")
 			open_login_button.send_keys("sudo su",Keys.ENTER)
@@ -297,7 +300,7 @@ def starting_tasks():
 		# mod_vpn2.fnc_vpn ()
 		# cnf_bvb.extact_gc_profile()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=1, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
