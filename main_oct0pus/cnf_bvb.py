@@ -75,7 +75,6 @@ def update_and_reset_go_ac(new_set_van_gc_main_account):
 
 ########################################################################################################################################
 def change_gc_acc():
-	
 	try:
 		# g_a=get_actif_account()
 		g_index,g_a=api_mysql.get_active_goo()
