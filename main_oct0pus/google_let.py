@@ -140,9 +140,9 @@ def check_reconect(driver):
 		print("still  not  fucking  reconect!!!!!!")
 		open_login_button=WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
-		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		time.sleep(250)
 		print("OK XTERMINAL FOUND !!!!!!")
+		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		check_reconect(driver)
 	except Exception as e:
 		print("no2")
