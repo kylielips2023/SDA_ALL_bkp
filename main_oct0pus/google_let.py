@@ -89,7 +89,7 @@ def lets_play(driver) :
 	time.sleep(1)
 	staage="STARTING GOO_LET_PLAY [ "+cnf_bvb.g00g_acc+" ] ["#+os.system("echo $WEBHOOK_URL")+" ] "
 	print(staage)
-	cnf_bvb.send_msg_dock(staage)
+	# cnf_bvb.send_msg_dock(staage)
 
 	try:
 		ads_class(driver)
@@ -142,7 +142,7 @@ def check_reconect(driver):
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		time.sleep(250)
 		print("OK XTERMINAL FOUND !!!!!!")
-		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
+		# cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		check_reconect(driver)
 	except Exception as e:
 		print("no2")
@@ -217,7 +217,7 @@ def check_profile_validity(driver):
 
 	print(" ",etat)
 	msg="etat : "+etat
-	cnf_bvb.send_msg_dock(msg)
+	# cnf_bvb.send_msg_dock(msg)
 	# input("0000111111")
 
 	try:
@@ -246,7 +246,7 @@ def ads_class(driver):
 		try:
 			shell_limit=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/cloud-shell-root/div/stand-alone/div[1]/div/loading-screen/div/div/div[2]/div[1]/div/div/div/div')))
 			print("ok this account DOWN")
-			cnf_bvb.send_msg_dock("ok this account DOWN")
+			# cnf_bvb.send_msg_dock("ok this account DOWN")
 			try:
 				cnf_bvb.change_gc_acc()
 			except:

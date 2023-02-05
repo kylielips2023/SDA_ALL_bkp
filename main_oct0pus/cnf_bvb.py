@@ -57,7 +57,7 @@ def send_msg_dock(text):
 	chat_id = para_m.chat_id_alerts_van_google
 	url_req = "https://api.telegram.org/bot" + token + "/sendMessage" + "?chat_id=" + chat_id + "&text=" + msg_telegram
 	results = requests.get(url_req)
-	# print(results.json())
+	print(results.json())
 # send_msg_dock("text")
 # send_msg_dock("text")
 ###############################################################################################################################
@@ -234,3 +234,6 @@ def random_fir():
 	print("[ "+random_firefox_version +" ]", end=" ")
 	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
 	return new_binary_path
+
+
+# send_msg_dock("still  not  fucking  reconect!!!!!!")
