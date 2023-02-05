@@ -1,0 +1,127 @@
+1675598828670	geckodriver	INFO	Listening on 127.0.0.1:42171
+1675598830083	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "46491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHKyBdU"
+1675598832763	Marionette	INFO	Marionette enabled
+1675598832775	Marionette	INFO	Listening on port 26497
+Read port: 26497
+WebDriver BiDi listening on ws://localhost:46491
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1675598833191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+DevTools listening on ws://localhost:46491/devtools/browser/19225862-5b8a-4af6-b4b3-342086329dff
+1675598839390	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+get@resource://gre/modules/PlacesUtils.sys.mjs:2041:11
+@resource://gre/modules/PlacesUtils.sys.mjs:2156:5
+get@resource://gre/modules/XPCOMUtils.sys.mjs:57:51
+promiseDBConnection@resource://gre/modules/PlacesUtils.sys.mjs:1475:30
+fetchBookmarksByURL@resource://gre/modules/Bookmarks.sys.mjs:2561:37
+fetch/<@resource://gre/modules/Bookmarks.sys.mjs:1564:25
+fetch@resource://gre/modules/Bookmarks.sys.mjs:1612:7
+BUI_updateStarState@chrome://browser/content/browser-places.js:1765:8
+BUI_onLocationChange@chrome://browser/content/browser-places.js:1752:10
+onLocationChange@chrome://browser/content/browser.js:5371:19
+callListeners@chrome://browser/content/tabbrowser.js:900:31
+_callProgressListeners@chrome://browser/content/tabbrowser.js:914:22
+_callProgressListeners@chrome://browser/content/tabbrowser.js:6348:46
+onLocationChange@chrome://browser/content/tabbrowser.js:6776:14
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1675598944701	geckodriver	INFO	Listening on 127.0.0.1:48053
+1675598946017	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "9387" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehahLSO"
+1675598947551	Marionette	INFO	Marionette enabled
+1675598947556	Marionette	INFO	Listening on port 2885
+WebDriver BiDi listening on ws://localhost:9387
+Read port: 2885
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1675598948051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+DevTools listening on ws://localhost:9387/devtools/browser/9d76d001-b187-4667-a9f5-4817bcb94a91
+1675598954297	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+get@resource://gre/modules/PlacesUtils.sys.mjs:2041:11
+@resource://gre/modules/PlacesUtils.sys.mjs:2156:5
+get@resource://gre/modules/XPCOMUtils.sys.mjs:57:51
+promiseDBConnection@resource://gre/modules/PlacesUtils.sys.mjs:1475:30
+fetchBookmarksByURL@resource://gre/modules/Bookmarks.sys.mjs:2561:37
+fetch/<@resource://gre/modules/Bookmarks.sys.mjs:1564:25
+fetch@resource://gre/modules/Bookmarks.sys.mjs:1612:7
+BUI_updateStarState@chrome://browser/content/browser-places.js:1765:8
+BUI_onLocationChange@chrome://browser/content/browser-places.js:1752:10
+onLocationChange@chrome://browser/content/browser.js:5371:19
+callListeners@chrome://browser/content/tabbrowser.js:900:31
+_callProgressListeners@chrome://browser/content/tabbrowser.js:914:22
+_callProgressListeners@chrome://browser/content/tabbrowser.js:6348:46
+onLocationChange@chrome://browser/content/tabbrowser.js:6776:14
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1675599642688	geckodriver	INFO	Listening on 127.0.0.1:22683
+1675599644053	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "14743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuMZtSs"
+1675599645144	Marionette	INFO	Marionette enabled
+1675599645149	Marionette	INFO	Listening on port 15393
+Read port: 15393
+WebDriver BiDi listening on ws://localhost:14743
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1675599645595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+DevTools listening on ws://localhost:14743/devtools/browser/7ba0c08d-7685-4d7a-a423-14ec6b203f5d
+1675599651969	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+get@resource://gre/modules/PlacesUtils.sys.mjs:2041:11
+@resource://gre/modules/PlacesUtils.sys.mjs:2156:5
+get@resource://gre/modules/XPCOMUtils.sys.mjs:57:51
+promiseDBConnection@resource://gre/modules/PlacesUtils.sys.mjs:1475:30
+fetchBookmarksByURL@resource://gre/modules/Bookmarks.sys.mjs:2561:37
+fetch/<@resource://gre/modules/Bookmarks.sys.mjs:1564:25
+fetch@resource://gre/modules/Bookmarks.sys.mjs:1612:7
+BUI_updateStarState@chrome://browser/content/browser-places.js:1765:8
+BUI_onLocationChange@chrome://browser/content/browser-places.js:1752:10
+onLocationChange@chrome://browser/content/browser.js:5371:19
+callListeners@chrome://browser/content/tabbrowser.js:900:31
+_callProgressListeners@chrome://browser/content/tabbrowser.js:914:22
+_callProgressListeners@chrome://browser/content/tabbrowser.js:6348:46
+onLocationChange@chrome://browser/content/tabbrowser.js:6776:14
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 108: Error: Could not get children of file(/tmp/rust_mozprofileuMZtSs/thumbnails) because it does not exist
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
