@@ -6,7 +6,7 @@ url_1="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 # cikox0xmain "bigochildxtow" "bigochildxthree" "bigochildxfour"
 # comp=["andromialwatid","0ct0pusx01xandrow","andersonandr0w00","bigoctbig","gorgegofin","abouichrine"]
 # comp=["bigochildxone","bigochildxtow","bigochildxthree","bigochildxfour"]
-comp=["uppermainxforyou","bigochildxone","bigochildxtow","bigochildxthree","bigochildxfour","cikochildxone","danayxmaindanay","antix03xthree","adrowchildxfour","danayxchildx03danay","danayxchildx02danay","danayxchildx04danay","cikox0xmain","vanishmainxxone","vanishxmainxtow","vanishxmainxthree","vanishxmainfour","cikox0xmain","cikochildxone","cikochildxtow","cikochildxthree","cikochildxfour"]
+comp=["uppermainxforyou","bigochildxone","bigochildxtow","bigochildxthree","bigochildxfour","cikochildxone","danayxmaindanay","antix03xthree","adrowchildxfour","danayxchildx01danay","danayxchildx03danay","danayxchildx02danay","danayxchildx04danay","cikox0xmain","vanishmainxxone","vanishxmainxtow","vanishxmainxthree","vanishxmainfour","cikox0xmain","cikochildxone","cikochildxtow","cikochildxthree","cikochildxfour"]
 # print(cop)
 for (num,item) in enumerate(comp):
     print(num+1,item)
@@ -17,7 +17,7 @@ for (num,item) in enumerate(comp):
 # comp=["vovanvonvowe","azfounmondilla"]
 
 
-email=comp[21]
+email=comp[9]
 paxx="g0ping0*"
 # paxx="g0ping0**"
 # paxx="agoon007"
