@@ -143,7 +143,7 @@ def check_reconect(driver):
 		open_login_button=WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 		print("OK XTERMINAL FOUND !!!!!!")
-		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
+		# cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		time.sleep(300)
 		# cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		check_reconect(driver)
@@ -265,7 +265,7 @@ def ads_class(driver):
 			raise SystemExit
 		except:
 			print("ok this account ACTIVE")
-			cnf_bvb.send_msg_dock("ok this account ACTIVE")
+			# cnf_bvb.send_msg_dock("ok this account ACTIVE")
 		# quit()
 
 		try:
