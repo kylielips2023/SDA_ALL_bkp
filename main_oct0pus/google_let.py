@@ -275,6 +275,7 @@ def ads_class(driver):
 				cnf_bvb.send_msg_dock(staage)
 			except Exception as e:
 				print(str(e))
+				pass
 			# open_login_button.click()
 			print("clickkkkkkkkkk")
 			open_login_button.send_keys("sudo su",Keys.ENTER)
