@@ -134,6 +134,8 @@ def stage_1():
 ###########################################################################
 
 def check_reconect(driver):
+	url_y="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+	driver.get(url_y)
 	print("CHECK TEMINAL DISPONIBILITY ..... ",end='',flush=True)
 	try:
 		print("check")
@@ -286,8 +288,8 @@ def ads_class(driver):
 			time.sleep(10)
 			open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 			time.sleep(3)
-			open_login_button.send_keys("./start.sh",Keys.ENTER)
-			time.sleep(25)
+			open_login_button.send_keys("./start.sh && clear",Keys.ENTER)
+			time.sleep(80)
 			check_reconect(driver)
 		except Exception as e:
 			print(e+" errrrrrrrro1")

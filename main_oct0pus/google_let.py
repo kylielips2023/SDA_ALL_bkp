@@ -127,6 +127,8 @@ def stage_1():
 ###########################################################################
 
 def check_reconect(driver):
+	url_y="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
+	driver.get(url_y)
 	print("CHECK TEMINAL DISPONIBILITY ..... ",end='',flush=True)
 	try:
 		print("check")
@@ -140,8 +142,9 @@ def check_reconect(driver):
 		print("still  not  fucking  reconect!!!!!!")
 		open_login_button=WebDriverWait(driver, 120).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.xterm-helper-textarea')))
 		open_login_button.send_keys("clear && docker ps",Keys.ENTER)
-		time.sleep(300)
 		print("OK XTERMINAL FOUND !!!!!!")
+		cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
+		time.sleep(300)
 		# cnf_bvb.send_msg_dock("still  not  fucking  reconect!!!!!!")
 		check_reconect(driver)
 	except Exception as e:
@@ -282,8 +285,8 @@ def ads_class(driver):
 			time.sleep(10)
 			open_login_button.send_keys("clear && docker ps",Keys.ENTER)
 			time.sleep(3)
-			open_login_button.send_keys("./start.sh",Keys.ENTER)
-			time.sleep(25)
+			open_login_button.send_keys("./start.sh && clear",Keys.ENTER)
+			time.sleep(80)
 			check_reconect(driver)
 		except Exception as e:
 			print(str(e)+" errrrrrrrro1")

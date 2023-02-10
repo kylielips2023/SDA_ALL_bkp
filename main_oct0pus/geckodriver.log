@@ -1,9 +1,10 @@
-1675989468769	geckodriver	INFO	Listening on 127.0.0.1:8607
-1675989471453	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "37271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF0Z4GQ"
-1675989472616	Marionette	INFO	Marionette enabled
-1675989472624	Marionette	INFO	Listening on port 19205
-WebDriver BiDi listening on ws://localhost:37271
-Read port: 19205
+1675996032178	geckodriver	INFO	Listening on 127.0.0.1:44031
+1675996034022	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "60513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQwCz5y"
+1675996035460	Marionette	INFO	Marionette enabled
+1675996035464	Marionette	INFO	Listening on port 18569
+WebDriver BiDi listening on ws://localhost:60513
+Read port: 18569
+Read port: 18569
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
@@ -14,10 +15,40 @@ JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Erro
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
 JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
-1675989473140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Read port: 18569
+1675996038151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: SessionStore: "The session file is invalid: TypeError: state is null"
-DevTools listening on ws://localhost:37271/devtools/browser/b419de73-ce98-4e1b-a2e0-4204854470ac
-1675989479833	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+DevTools listening on ws://localhost:60513/devtools/browser/6c8a75b9-0499-451d-bb92-f5e5364b3e48
+1675996047309	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1675996730824	geckodriver	INFO	Listening on 127.0.0.1:42953
+1675996732271	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "36689" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilecOQy5K"
+1675996735656	Marionette	INFO	Marionette enabled
+1675996735663	Marionette	INFO	Listening on port 7175
+Read port: 7175
+WebDriver BiDi listening on ws://localhost:36689
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1675996736271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+DevTools listening on ws://localhost:36689/devtools/browser/5334a095-c727-4112-a5dd-be73ec09707c
+1675996745450	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
 TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
 TimedPromise@chrome://remote/content/marionette/sync.js:221:10
 GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
@@ -35,6 +66,38 @@ callListeners@chrome://browser/content/tabbrowser.js:900:31
 _callProgressListeners@chrome://browser/content/tabbrowser.js:914:22
 _callProgressListeners@chrome://browser/content/tabbrowser.js:6348:46
 onLocationChange@chrome://browser/content/tabbrowser.js:6776:14
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1675997343510	geckodriver	INFO	Listening on 127.0.0.1:26213
+1675997345190	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "48445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeEPVEz"
+1675997350555	Marionette	INFO	Marionette enabled
+1675997350580	Marionette	INFO	Listening on port 18819
+WebDriver BiDi listening on ws://localhost:48445
+Read port: 18819
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1675997351349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+DevTools listening on ws://localhost:48445/devtools/browser/62de29f5-373a-436b-8e57-e4b4930cd8e1
+1675997362701	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
 JavaScript error: https://cloudshell.googleusercontent.com/editor/8fd48b6bfe230a39e42636b2dcea9c387f560528/bundle.js, line 2: Error: schema is invalid: data.properties['tasks'].items.anyOf[1].properties['elements'].items.anyOf[1] should be object,boolean, data.properties['tasks'].items.anyOf[1].properties['elements'].items should be array, data.properties['tasks'].items.anyOf[1].properties['elements'].items should match some schema in anyOf, data.properties['tasks'].items should be array, data.properties['tasks'].items should match some schema in anyOf
 Exiting due to channel error.
 Exiting due to channel error.
