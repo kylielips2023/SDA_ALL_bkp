@@ -90,6 +90,22 @@ def stage_1():
 		print (str(error))
 
 ###########################################################################
+
+def check_recovery(driver):
+	print("CHECK RECOVERY MAIL !!!!!!")
+	try:
+		#/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]
+		#//*[@id="view_container"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[1]/div
+		click_on_recovery_email=WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/ul/li[3]')))
+		click_on_recovery_email.click()
+		time.sleep(5)
+		# //*[@id="knowledge-preregistered-email-response"]
+		input_on_recovery_email=WebDriverWait(driver, 65).until(EC.presence_of_element_located((By.XPATH, '//*[@id="knowledge-preregistered-email-response"]')))
+		input_on_recovery_email.send_keys("cha3b0n@protonmail.com",Keys.ENTER)
+		print("OK recovery EMAIL ENTRED !!!!!!")
+		time.sleep(8)
+	except:
+		print("llllol")
 def check_reconect(driver):
 	print("OPEN AND VISITE WEB-SITE [ 1 ]...... ",end='',flush=True)
 
@@ -128,6 +144,9 @@ def ads_class(driver):
 
 		time.sleep(8)
 		print(driver.title,driver.current_url)
+		# input("p")
+		# time.sleep(8)
+		check_recovery(driver)
 
 		
 		time.sleep(25)
@@ -161,7 +180,7 @@ def starting_tasks():
 	try:
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
-		display = Display(visible=1, size=(width,height)).start()
+		# display = Display(visible=1, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		# display.stop()
