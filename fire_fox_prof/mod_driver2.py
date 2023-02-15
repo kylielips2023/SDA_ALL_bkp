@@ -99,7 +99,7 @@ def build_driver(width,height):
 		fp.set_preference("modifyheaders.headers.action0", "Add")
 		fp.set_preference("modifyheaders.headers.name0", "x-msisdn")
 		fp.set_preference("dom.push.enabled", False)
-		fp.set_preference("intl.accept_languages", "en-GB");
+		fp.set_preference("intl.accept_languages", "en-GB")
 		fp.update_preferences()
 		ops.binary_location = new_binary_path
 		ops.profile=fp
