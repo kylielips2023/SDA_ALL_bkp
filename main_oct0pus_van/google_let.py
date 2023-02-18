@@ -238,7 +238,15 @@ def check_profile_validity(driver):
 	except :
 		print('no Dissmissed')
 #################################"MAIN STARTING"##############################
+def is_connected(driver):
+	try:
+		dissmi=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/div/ul/li[1]/div/div[1]/div/div[3]')))
+		print("deconeted")
+		cnf_bvb.send_msg_dock("Deconeted Deconeted Deconeted !!!")
+	except:
+		print("pass")
 
+		# 
 
 
 def ads_class(driver):
@@ -292,7 +300,9 @@ def ads_class(driver):
 			time.sleep(80)
 			check_reconect(driver)
 		except Exception as e:
+			is_connected(driver)
 			print(str(e)+" errrrrrrrro1")
+			# input("hg")/
 
 	except Exception as e:
 		print("ads error +++++ "+str(e))
@@ -306,7 +316,7 @@ def starting_tasks():
 		# mod_vpn2.fnc_vpn ()
 		# cnf_bvb.extact_gc_profile()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=visible_v, size=(width,height)).start()
+		# display = Display(visible=visible_v, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()
