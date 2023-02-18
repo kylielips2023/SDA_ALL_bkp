@@ -292,7 +292,7 @@ def ads_class(driver):
 			time.sleep(80)
 			check_reconect(driver)
 		except Exception as e:
-			print(e+" errrrrrrrro1")
+			print(str(e)+" errrrrrrrro1")
 
 	except Exception as e:
 		print("ads error +++++ "+str(e))
@@ -301,7 +301,6 @@ def ads_class(driver):
 ######################USER AGENT ###################################################
 def starting_tasks():
 	width ,height=cnf_bvb.resolution_func()
-
 	try:
 		stage_1()### CLEAR
 		# mod_vpn2.fnc_vpn ()
