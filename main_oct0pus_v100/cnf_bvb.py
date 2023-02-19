@@ -213,8 +213,8 @@ urls_BVB=['Uu2MbdT','Uu2MbdT','Uu2MbdT']
 random_url=main_domain_BVB+random.choice(urls_BVB)
 user_agent = random.choice(user_agent_list)
 
-# new_driver_path = '/usr/bin/geckodriver-30'
-new_driver_path = '/usr/bin/geckodriver22'
+new_driver_path = '/usr/bin/geckodriver-30'
+# new_driver_path = '/usr/bin/geckodriver22'
 ##URLS
 #firefox_options_binary = "/root/EXTRA/firefox-49.0b9/firefox/firefox"
 # new_driver_path = '/usr/bin/geckodriver_30'
