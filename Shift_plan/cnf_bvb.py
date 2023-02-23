@@ -11,7 +11,7 @@ os.system("rm -rf __pycache__/")
 os.system("rm *.tar.gz")
 
 hostname_os=socket.getfqdn()
-goog="/root/g00g"
+goog="/home/pythony/g00g"
 pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 visible_v=0
@@ -232,7 +232,7 @@ def random_fir():
 
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
-	new_binary_path="/root/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
+	new_binary_path="/home/pythony/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
 	return new_binary_path
 
 
