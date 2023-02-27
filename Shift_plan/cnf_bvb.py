@@ -9,16 +9,19 @@ import para_m
 
 os.system("rm -rf __pycache__/")
 os.system("rm *.tar.gz")
+pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 hostname_os=socket.getfqdn()
 goog="/home/pythony/g00g"
-pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 visible_v=0
+extra_folder="/home/pythony/EXTRAT/firefox-"
 
 if "LOOKE3" in hostname_os:
 	print(hostname_os)
 	visible_v=1
+	extra_folder="/root/EXTRAT/firefox-"
+	goog="/root/g00g"
 
 
 
@@ -232,7 +235,8 @@ def random_fir():
 
 	random_firefox_version=random.choice(firefox_version)
 	print("[ "+random_firefox_version +" ]", end=" ")
-	new_binary_path="/home/pythony/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
+	new_binary_path=extra_folder+random_firefox_version+"/firefox/firefox"
+	# new_binary_path="/home/pythony/EXTRAT/firefox-"+random_firefox_version+"/firefox/firefox"
 	return new_binary_path
 
 

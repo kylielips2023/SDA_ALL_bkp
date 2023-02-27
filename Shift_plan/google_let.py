@@ -130,6 +130,7 @@ def check_reconect(driver):
 	url_y="https://shell.cloud.google.com/?cloudshell=true&show=terminal"
 	driver.get(url_y)
 	print("CHECK TEMINAL DISPONIBILITY ..... ",end='',flush=True)
+	driver.save_screenshot('screenie.png')
 	try:
 		print("check")
 		reconnect_button=WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//*[@id="cloudshell"]/div/horizontal-split/div[2]/devshell/terminal-container/terminal-status-bar/status-message/mat-toolbar/button[2]')))
@@ -305,7 +306,7 @@ def starting_tasks():
 		# mod_vpn2.fnc_vpn ()
 		# cnf_bvb.extact_gc_profile()
 		visible_v=cnf_bvb.visible_v
-		display = Display(visible=0, size=(width,height)).start()
+		display = Display(visible=1, size=(width,height)).start()
 		driver=mod_driver2.build_driver(width ,height)
 		lets_play(driver)
 		display.stop()

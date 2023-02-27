@@ -53,6 +53,13 @@ def build_driver(width,height):
 		#firefox_options = Firefox_Options()
 		ops.add_argument(moz_wid)
 		ops.add_argument(moz_hig)
+		ops.add_argument("--start-maximized")
+		ops.add_argument("--disable-infobars")
+		ops.add_argument("--disable-extensions")
+		ops.add_argument('--no-sandbox')
+		ops.add_argument('--disable-application-cache')
+		ops.add_argument('--disable-gpu')
+		ops.add_argument("--disable-dev-shm-usage")
 		# my_proxy="127.0.01:9050"
 		# ipp,pport=my_proxy.split(':')
 		######################################
