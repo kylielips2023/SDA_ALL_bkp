@@ -1,30 +1,65 @@
-1676754173290	geckodriver	INFO	Listening on 127.0.0.1:26393
-1676754175918	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "29525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilen2dKqk"
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-ATTENTION: default value of option mesa_glthread overridden by environment.
-1676754181784	Marionette	INFO	Marionette enabled
-1676754181810	Marionette	INFO	Listening on port 7127
-Read port: 7127
-WebDriver BiDi listening on ws://localhost:29525
-Read port: 7127
-1676754184942	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1678110941578	geckodriver	INFO	Listening on 127.0.0.1:45281
+1678110944223	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "28899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepFFKLF"
+1678110955186	Marionette	INFO	Marionette enabled
+1678110955211	Marionette	INFO	Listening on port 20705
+WebDriver BiDi listening on ws://localhost:28899
+Read port: 20705
+Read port: 20705
+Read port: 20705
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1678110958067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: SessionStore: "The session file is invalid: TypeError: state is null"
-DevTools listening on ws://localhost:29525/devtools/browser/38fe4a59-7a75-483b-ad93-b8848b1fbd62
-JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 4846 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
-TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
-onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
-_emit@resource://devtools/shared/event-emitter.js:242:32
-emit@resource://devtools/shared/event-emitter.js:186:18
-emit@resource://devtools/shared/event-emitter.js:330:18
-getMutations@resource://devtools/client/fronts/walker.js:312:10
-
-console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2320))
-JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 5503 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-1676754586652	Marionette	INFO	Stopped listening on port 7127
-1676754643723	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+DevTools listening on ws://localhost:28899/devtools/browser/76fd6f18-6efe-4695-8f0e-9a00fe705382
+1678110975328	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 5522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1678111637395	geckodriver	INFO	Listening on 127.0.0.1:10161
+1678111640261	mozrunner::runner	INFO	Running command: "/root/EXTRAT/firefox-97.0.1/firefox/firefox" "--marionette" "--width=1366" "--height=768" "--remote-debugging-port" "33903" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexrbICf"
+1678111651194	Marionette	INFO	Marionette enabled
+1678111651221	Marionette	INFO	Listening on port 15117
+WebDriver BiDi listening on ws://localhost:33903
+Read port: 15117
+Read port: 15117
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 1924: Error: Cannot find loader for bootstrap
+1678111653005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: SessionStore: "The session file is invalid: TypeError: state is null"
+DevTools listening on ws://localhost:33903/devtools/browser/02d8b3a8-c7e8-4524-8beb-c3a533d46462
+1678111671823	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2497:11
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 1726 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal&followup=https://shell.cloud.google.com/?cloudshell%3Dtrue%26show%3Dterminal line 2 > eval line 366 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

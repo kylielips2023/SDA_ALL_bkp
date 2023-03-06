@@ -185,6 +185,27 @@ def check_limit(driver):
 		cnf_bvb.send_msg_dock("NO TIME_LIMIT ")
 
 #################################"MAIN STARTING"##############################
+####################################################################################################################################################################################################################################################################################
+def insert_pass(driver):
+	print("clicking ",end='',flush=True)
+
+	try:
+		# pass
+		
+		d3coneted_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/div/ul/li[1]/div/div[1]/div/div[2]/div[2]')))
+		d3coneted_button.click()
+		# input("deconected_prof : FINISH")
+		time.sleep(5)
+		print("ENTER PA55 : ")
+		pass_input_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input')))
+		pass_input_button.click()
+		pass_input_button.send_keys(paxx,Keys.ENTER)
+		print("deconected_prof : FINISH")
+	except Exception as e:
+		# input("deconected_prof : error FINISH")
+		print("deconected_prof : error FINISH")
+		# raise e
+####################################################################################################################################################################################################################################################################################
 
 #################################"MAIN STARTING"##############################
 def deconected_prof(driver):
@@ -195,6 +216,18 @@ def deconected_prof(driver):
 		# pass
 	except Exception as e:
 		print("no deconecte")
+####################################################################################
+#################################"MAIN STARTING"##############################
+def deconected_prof3(driver):
+	try:
+		d3coneted_button=WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div/div/ul/li[1]/div/div[1]/div/div[2]/div[2]')))
+		print("found D3conecte : ", d3coneted_button.text)
+		cnf_bvb.send_msg_dock(" D3conecte ")
+		insert_pass(driver)
+		# pass
+	except Exception as e:
+		print("no deconecte")
+######################USER AGENT ###################################################
 ######################USER AGENT ###################################################
 def check_profile_validity(driver):
 
@@ -205,6 +238,14 @@ def check_profile_validity(driver):
 	print(get_url)
 	substring="signinchooser"
 	fullstring=str(get_url_1)
+	###########################################################################
+	substring_passive="passive"
+	if fullstring.find(substring_passive) != -1:
+		print("Found! substring_passive")
+		deconected_prof3(driver)
+	else:
+		etat="Deconnected substring_passive"
+		print("Not found! "+etat)
 
 	if fullstring.find(substring) != -1:
 		print("Found!")
